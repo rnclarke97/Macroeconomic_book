@@ -1,0 +1,625 @@
+\input{mmd6-scrivcustom-leader}
+\def\mytitle{Investment savings paper}
+\def\myauthor{Roland Clarke}
+\input{mmd6-scrivcustom-begin}
+
+\title{Macroeconomic implications of rule-of-thumb savings behaviour \\[3ex] \Large Extended Abstract}
+
+\author{Roland Clarke\thanks{Roland Clarke is an independent researcher and may be contacted at rolandclarke97@icloud.com}} 
+
+%\date{January 2024}
+
+\maketitle
+
+\begin{abstract}
+
+This extended abstract proposes and simulates a model of savings behaviour, based upon a few plausible and easily implemented rules rather than impossible optimising behaviour which is the basis of most orthodox macroeconomic models. The model implies a strong relationship between the rate of economic growth and the rate of savings (with the former determining the latter) and clearly outperforms life-cycle models which can only explain a very limited proportion of the savings rate from economic growth. Consistent with widespread empirical findings, the interest rate is not required to equilibrate savings and investment. The paper attempts to i) provide an explanation for the high savings rates observed in China and other countries in recent decades; ii) demonstrate that low savings rates are not usually a constraint on growth and development, but rather the result of low growth and low quality investment;  iii) demonstrate that while the interest rate may impact investment, and sometimes savings, it is impossible for the interest rate to act as an equilibrating mechanism for ex-ante savings and investment, and therefore the concept of a “natural” or “equilibrium” interest rate or $r^*$ is meaningless. 
+
+\end{abstract}
+
+\newpage
+
+\section{Introduction}
+\label{introduction}
+
+Most models of consumption and savings are based upon the life cycle hypothesis originally developed by Franco Modigliani and collaborators (see for example \textcite{modigliani1954,modigliani1966,modigliani1986}). While the life cycle hypothesis, and the related permanent income hypothesis, of \textcite{Friedman57} represented considerable advances on previous naïve theories of consumption and saving, and apparently generated insights into questions such as why savings rates are no higher in rich countries than poor and also why savings will increase\footnote{Although this finding is widely cited and is technically true, it will be shown in a later section of this paper that growth (due to technical progress or of population) cannot account for observed savings rates in Modigliani style life--cycle models.} in a growing economy (see \textcite{deaton2005} for an excellent review), it is explicitly anchored in the paradigm of a typical typical rational consumer maximising expected utility over their lifetime. This model, indeed, continues to dominate economic theorising (because it is mathematically tractable and taps into deep seated popular narratives regarding interest rates, saving and investment\footnote{The argument is that the analysis of the relationships between savings, investment and interest rate has been distorted by what \parencite{Shiller19,Shiller21} would term as “narratives”. These are powerful stories which subtly influence theoretical and empirical approaches to the relationship between these key macroeconomic variables. The key stories are i) that interest is the reward for waiting, or for deferring consumption; ii) savings are required for investment and therefore at a macroeconomic level a lack of savings can be constraint to growth and development; iii) the long--run real interest rate is determined by the balance between desired \emph{ex--ante} saving and desired (\emph{ex--ante}) investment.}), despite the fact that it is well established that the optimisation problems required to be solved by consumers are both impossible (in behavioural terms) and far from observed reality (see \textcite{thaler1994,thaler2016}).
+
+\section{Behavioural approach instead of optimization}
+\label{behaviouralapproachinsteadofoptimization}
+
+Most theories of consumption which form the micrcofoundations of macroeconomics start with the idea of the distribution of consumption through time being an inter-temporal optimisation problem for a “representative” household which maximises utility based upon expected income and subjective trade-offs between present and future consumption (for example \textcite{Deaton92,romer2018,walsh2017, gali2015}).
+
+The models of consumption in orthodox theories characterise consumption decisions as intertemporal allocation decisions in which consumers maximise their utility, which is a function of consumption in every time period.
+
+The fundamental argument here is that the canonical optimisation problem for consumers is not the one described in most textbooks, in which a consumer maximises utility subject to a budget constraint, and from which can be derived the narrative of consumption being inversely related to interest rates as summarised below:
+
+$$\max{}\quad u = \sum\limits_1^T \upsilon_t(c_t)  \quad \textrm{(intertemporal utility)}\\$$
+$$\textrm{subject to} \quad  \sum\limits_1^T \frac{c_t}{(1+r)^t} = A_1 + \sum\limits_1^T \frac{y_t}{(1+r)^t} \quad \textrm{(budget constraint)}\\$$
+
+Rather, the problem faced by individuals is how to minimise the probability that in any time period initial assets plus income will be insufficient (or unavailable) to maintain a socially determined minimum level of consumption. Conceptually, this could be characterised as individuals or households attempting to hold reserves of assets in order to maintain a minimum level of consumption in the event of income shocks (such as unemployment) or expenditure shocks (such as health or social care expenditures), as well as accumulating reserves to cover retirement, and or inability to work due to disability, sufficient to cover probable life expectancy.
+
+This suggests the need to move from a framework of rational optimisation by homogeneous households (which is recognised to be both psychologically and computationally impossible) to a more realistic approach in which consumption and saving levels are socially determined and in which the psychological objectives of households (the avoidance of loss and destitution and the pursuit of power, for both of which there is empirical evidence) are realistic.
+
+While there have been many critiques of the “rational” optimisation model of consumer behaviour,\footnote{Among the earliest was the work of \textcite{Simon55}, which has very gradually led to the development of a considerable empirical literature, anchored in psychological science which suggests that the rational optimisation model is inconsistent with the computational abilities of the human mind, and with the actual way in which people take decisions (see for example \textcite{tversky1991,akerlof2002,tversky1974,kahneman1979,kahneman1990,kahneman2003,kahneman2011,thaler1994,thaler2016,thaler2018,}).} this has tended to dominate orthodox discourse because of its mathematical tractability, even though it has relatively weak empirical support.
+
+Theoretical and empirical work such as \textcite{Deaton90,Deaton89},\textcite{carroll2021,Carroll97,carroll1991} and \textcite{Winter12} have shown that rational consumer behaviour can be better explained through rules of thumb involving the use of buffer-stocks over relatively short periods (a few years) to cover unforeseen contingencies (particularly unemployment and health emergencies), while making some (often inadequate) provision for later years of life when little or no income will be available. This paper proposes an approach in which reasonable assumptions on individual consumption choices based upon modern behavioural theories, as opposed to unrealistic optimisation, are used to construct a plausible model of macroeconomic variables consistent with observed behaviour, broad consistent with the overall life-cycle hypothesis, but removing the assumption of optimisation at the centre of the hypothesis.
+
+In this framework, those households which are able to, save essentially in order to avoid losses or destitution, including to provide resources for retirement. What this means in practice is that the principal motives for saving are the precautionary motive, whereby savings are needed to cushion unexpected falls in income (through unemployment for example), or unexpected expenditures on accidents and emergencies (particularly for health). It is explicitly recognised that individuals and households have little knowledge of the likely pattern of income over their lifetimes, and although they recognise that saving is necessary as a precautionary measure and eventually for retirement, there is little understanding of how much saving will be required over a life time. It is also recognised that in all economies a substantial proportion of the population will be unable to save enough to provide for short term emergencies\footnote{Even in the US, the richest country in the world, in 2021, 40 percent of households did not have money set aside for emergencies and would need to borrow, sell assets or draw on other savings to confront a loss of income from employment. 32 percent of households had less than \$400 for emergency expenses, while 24 percent had difficultly paying normal monthly bills \parencite{federalreservesystem2022}.}or for retirement.
+
+\section{Consumption and saving in a social context}
+\label{consumptionandsavinginasocialcontext}
+
+In our framework, those households which are able to, save essentially in order to avoid catastrophe or destitution, including to provide resources for retirement, or to accumulate political and social power. What this means in practice is that the principal motives for saving are the precautionary motive, whereby savings are needed to cushion unexpected falls in income (through unemployment for example), or unexpected expenditures on accidents and emergencies (particularly for health), and for maintaining consumption during retirement, or for a few, as a means to obtaining and maintaining power. It is proposed to extend the framework to include three social groups divided broadly by income.
+
+\subsection{Low income earners}
+\label{lowincomeearners}
+
+The first group is that of low income earners,\footnote{In addition to low paid workers this group would include unemployed and under--employed households, self--employed (informal sector) as well as very small businesses. The criteria is the relationship of income to consumption needs rather than occupational status.} in which income is insufficient (or only just sufficient) for physically and socially necessary consumption.\footnote{By this is meant sufficient resources for all essential needs (such as food, clothing, housing, education and basic health care) as well as minimum contribution to social obligations, including contributions to community and family events and provision of support for extended family confronting emergencies.}Net saving will be close to zero. Even if some individuals are temporarily able to make small savings for contingencies, as necessities will be met through social and family links, and accumulated savings of one individual will often be called upon to meet emergency expenditures of family or friends (see for example \textcite{banerjee2011}, chapter 9). In the absence (or inadequacy) of public social welfare, those unable to work due to unemployment or old age, for example, will also be supported by family or informal social networks.
+
+\subsection{Middle income earners}
+\label{middleincomeearners}
+
+The second group is that of middle income earners who generally have sufficient resources for basic necessities but has to plan and save for contingencies and retirement, and therefore net savings will be dependent on a combination of demographic factors, risk aversity, income levels, and the availability of public social protection and health services. It is not suggested, however, that households in this category will be making impossible decisions to optimise consumption over their lifetimes in a radically uncertain world, but rather will be taking reasonable decisions to try and avoid major shocks to their life-style and social standing. This would include having resources available to meet moderate contingencies and not being put into the position of losing one’s house, becoming bankrupt or having to make major reductions in expenditure over an extended time.
+
+The choice between consumption and saving could be seen as one in which the benefits of immediate consumption are weighed against future risks and the security provided by increasing the pool of savings or assets.\footnote{This is similar to the approach of \textcite{rotheli2017} who showed that simply examining the trade--off between assets and consumption was an effective control mechanism to enable survival and under certain assumptions obtain an outcome not very different from the impossible constrained optimisation of traditional theory.} However this calculus should not be seen in terms of the “rational” intertemporal optimisation. The perceived risks and the value of security of assets will be subjective and subject to waves of fear and optimism, as households receive new information and are infected by the opinions, fears and optimism of others. This inherent instability was central to Keynes idea of the fundamental uncertainty having a real and lasting impact on the real economy:
+
+\begin{quote}
+Actually, however, we have, as a rule, only the vaguest idea of any but the most direct consequences of our acts. Sometimes we are not much concerned with their remoter consequences, even tho time and chance may make much of them. But sometimes we are intensely concerned with them, more so, occasionally, than with the immediate consequences. Now of all human activities which are affected by this remoter preoccupation, it happens that one of the most important is economic in character, namely, Wealth. The whole object of the accumulation of Wealth is to produce results, or potential results, at a comparatively distant, and sometimes at an indefinitely distant, date. Thus the fact that our knowledge of the future is fluctuating, vague and uncertain, renders Wealth a peculiarly unsuitable subject for the methods of the classical economic theory. This theory might work very well in a world in which economic goods were necessarily consumed within a short interval of their being produced. But it requires, I suggest, considerable amendment if it is to be applied to a world in which the accumulation of wealth for an indefinitely postponed future is an important factor; and the greater the proportionate part played by such wealth-accumulation the more essential does such amendment become. \textcite{Keynes37b}
+\end{quote}
+
+This approach to consumption and savings should not be interpreted to imply that consumption will be highly volatile. Rather it implies that consumption is unlikely to be affected by small (or large) changes in the interest rate or “rational” intertemporal optimisation over a long and uncertain future.
+
+\subsection{Very high income earners}
+\label{veryhighincomeearners}
+
+The third group is very high income earners who have considerably more income than necessary to satisfy basic necessities, are able to indulge in luxury consumption and accumulate wealth, and indirectly power. For this group (a combination of capitalists, rentiers and a few “workers” with special talents and very high incomes), once consumption needs\footnote{This is not a reference to needs in the literal sense, but rather socially determined consumption validating the wealth and status of the wealthy as in \textcite{Veblen89} or \textcite{duesenberry1949}.} have been satiated, the dominant motivation becomes the accumulation of wealth in order to exert power and influence. In this case, accumulated wealth, in addition to providing security, provides power over others, and, if unchecked, the ability to alter the rules of the game of the socio-economic system, in favour of those possessing the most wealth (see for example \textcite{cohen2012,carroll2000a}). For the purposes of the current analysis, the important point here is that for this group, there is unlikely to be a significant correlation between income and consumption (see \textcite{dynan2004}). Changes in volatile income would be largely reflected in changes in savings rather than consumption.
+
+Empirical work such as \textcite{mian2021b} and \textcite{IMF2022}  suggest that in fact the top income percentile of the population in the US saves more than total investment, and that this high level of saving has not boosted levels of investment, but is offset by dissaving of the bottom 50\% of the income distribution. The very high levels of saving among the highest income levels considerably undermines any universal rational consumer optimisation model, as opposed to an approach based in social realities.
+
+\section{Description of the model}
+\label{descriptionofthemodel}
+
+The model consists essentially of a set of behavioural rules which households could reasonably follow and which will generate outcomes similar to those observed in reality. Following the framework of the life-cycle model it is assumed that individuals have a fixed working life span (of 45 years) and a period of retirement without income (of 20 years)\footnote{In the original \textcite{modigliani1954} these parameters were set at 40 and 10 years respectively}, although for the individual, their lifespan is unknown. An (exogenous) vector of income for the economy is generated with changing growth rates over a simulated 200 year period, with random normal shocks every year.
+
+It is assumed that over time an individual’s income will change due to progress and experience and also the general growth of the economy. Thus if an individual $j$ enters the workforce in the year $t$ where average income is $y_t$ their observed income in the first year of entering the labour force will be:
+
+$$y_{jt} = y_t(1+g_i)^{-\frac{w}{2}} $$
+
+Where $y_{jt}$ is the income of individual $j$ in period {t}, $w$ is the number of expected working years and $g_i$ the “inertial” growth of the individual’s income over time. The individual will then experience an annual growth of income of:
+
+$$(1+g_i)\left(\frac{y_{t+n}}{y_{t+n-1}}\right)$$
+
+In the year $t+n$. The model then processes the consumption behaviour of the individual according to a series of rules.
+
+1) In the first four years consumption is equal to income. These are ‘learning’ years for the individual
+
+2) Subsequently:
+
+\textbf{if} $\;\;\;y_{jt} > c_{j(t-1)}\;\;\;$ \textbf{then} $\;\;\;c_{jt} = c_{j(t-1)} + \delta(y_{jt} - y_{j(t-1})\;\;\;$  \textbf{else} $\;\;\;c_{jt} = c_{j(t-1)}$
+
+Where all notation is as described above and $c_{jt}$ is the consumption of individual {j} at time {t}. $\delta$ is the proportion of the increase in income to be saved\footnote{It is important to note that $\delta$ is not a marginal propensity to consume, as it only applies to increases to income in some conditions and is not applied for decreases. It rather draws its inspiration from Deaton’s \citeyear{Deaton90,Deaton91} work on buffer stock models. The process also allows individuals to build up assets over time, if growth is sufficiently high.}.
+
+3) The model also allows consumption to be maintained from asset stocks (if these have been accumulated), and sets limits on the fall in consumption in any year. It thus attempts to model the behaviour of consumers who will try to maintain consumption levels once these have been obtained.
+
+The model also sets a lower limit on consumption (independent of income or assets), on the assumption that the most basic physical and social needs will be met through through social and family networks, thus depleting income or assets of others in the same social group.
+
+Similarly a maximum consumption level is defined for those with the highest incomes, such that variations in income are largely transmitted into savings for that group.
+
+4) Once the individual is within 15 years of retirement, consumption cannot increase from one year to the next if accumulated assets are below 15 years of consumption.
+
+5) After retirement assets are consumed on the basis of an expected life of 25 years in order to leave a margin against the ‘risk’ of a long life or high end of life expenditures, or if there is an excess, consumption does not exceed the maximum lifetime consumption.
+
+The model works by calculating a lifetime annual consumption, savings and asset position for an individual overtime from the income vector corresponding to their lifespan, based on the rules above. This calculation is done for individuals entering the workforce at year 1, 2, … n so that at each year in time will consist of individuals who entered the workforce at different times. From this it is possible to aggregate across each year which will include individuals who entered the workforce (or retired) over the past 65 years. The current version of the model has only an average individual (as do most standard life-cycle models), but the final version will include individuals across an income distribution, so as to model correctly those who are unable to save and those whose income far exceeds their consumption, so as to explicitly take into account the distribution of income in determine savings rates.
+
+Finally the model can be run in a ‘Modigliani’ mode, in which the consumption decisions simply smooth consumption over the full lifetime, with no uncertainty as to future income. The ‘Modigliani’ mode includes an option for individuals to be liquidity constrained (thus young workers are unable to consume more than their income) to simulate and compare with the rule of thumb model presented here.
+
+Even without an explicit consideration of income distribution, the model’s properties are significantly different from traditional life-cycle approaches. In the next section we briefly consider the properties of the model and the dynamics of adjustment compared with the standard life-cycle model
+
+\section{Properties of the model}
+\label{propertiesofthemodel}
+
+In Figure 1 below we show a brief summary of simulations of saving behaviour under the ‘rule-of-thumb’ model of this paper and a comparison with the standard Modigliani life-cycle model, with liquidity constraints\footnote{In simulations without liquidity constraints savings rates would never exceed 7\% and would become negative with high growth -- a possibility which Tobin had suggested in 1967 (see \textcite{deaton2005})}. The simulations all start from an initial growth rate of 1\% for the first 20 years\footnote{In fact to maintain the integrity of the model, the 65 previous generations are simulated, using 1\% growth, so as to be able to have consistent initial assets and a full profile of individuals who entered the labour force over the preceding 65 years.} which is followed by a one-off change in the growth rate to 0, 2, 3, or 4 percent. This changed growth rate then continues for the following hundred years, so that it is possible to look at both dynamics of transition and the steady states that eventually emerge. In each case the level of income is subject to small random normal fluctuations.
+
+\begin{table}[htbp]
+\begin{minipage}{\linewidth}
+\setlength{\tymax}{0.5\linewidth}
+\centering
+\small
+\begin{tabulary}{\textwidth}{@{}ll@{}} \toprule
+\multicolumn{2}{l}{ \textbf{Figure 1: Comparison of savings and asset accumulation scenarios} }\\
+ \includegraphics[width=250pt,height=145pt]{sav_sim.png} & \includegraphics[width=250pt,height=149pt]{sav_mod.png} \\
+\midrule
+
+ \includegraphics[width=250pt,height=152pt]{asset_sim.png} & \includegraphics[width=250pt,height=156pt]{asset_mod.png} \\
+\bottomrule
+
+\end{tabulary}
+\end{minipage}
+\end{table}
+
+The principal difference between the two sets of simulations is that in the ‘rule-of-thumb’ simulation, individuals have no knowledge of nor attempt to forecast the future. Whereas in the ‘Modigliani’ simulation individuals implicitly anticipate the change of growth rate that takes place at year 20. Hence, if the growth rate is going to fall, savings rates increase initially before adjusting to a steady state of lower savings, and conversely for the anticipation of an increase in the growth rate. This result is well known within the life-cycle hypothesis literature.
+
+The ‘rule-of-thumb’ simulation, on the other hand shows far more intuitively plausible reactions to an increase \slash  decrease in the growth rate. As the growth rate increases, so does the savings rate, as it becomes much easier to save while maintaining or increasing consumption levels. Asset stocks however adjust first in the opposite direction to the steady-state in the ‘rule-of-thumb’ simulation (as increases in income reduce the ratio of stocks to income for pre-existing stocks) while they adjust smoothly in the ‘Modigliani’ simulation - as individuals anticipate income changes.
+
+Perhaps the most striking results of the simulations are the steady state savings rates that emerge in the two sets of simulations. In the ‘rule-of-thumb’ simulation a 4\% growth rate results in a savings rate of over 30\% while in the ‘Modigliani’ simulation the maximum savings rate obtained (with liquidity constraints imposed) is only 12\% of income. Indeed additional simulations at higher growth rates were unable to increase the savings rate significantly.
+
+In this case it is rather difficult to argue as Modigliani does in his final published article on Chinese savings rates (\textcite{Modigliani2004}) that the high rates are consistent with the life-cycle approach. The simulations suggest (but of course do not prove) that a more rule based approach to savings is likely to lead to the savings rates observed in the high growth economies such as China, Taiwan, Korea and, before 1990, Japan.
+
+Indeed, a true life-cycle approach would suggest that for example, that as growth in China began to accelerate in the late 1980s, those whose incomes increased substantially, could reasonably suppose that this transition would continue, and so that saving would be unnecessary as incomes were to increase enormously over the subsequent decades. However, in China, as in other developing countries experiencing a transition to high growth, much of the income increase is being driven by the incorporation of low-income rural workers into the urban labour force. The result is that the incomes of those affected increases not marginally, but by an order of magnitude of perhaps two or three times. Secondly, in the move from rural poverty to an urban environment, kinship and support networks become much weaker. Hence the need to save for contingencies as they would have fewer possibilities of being bailed out by the community. Finally they would have no way of knowing if the growth would continue. Thus there would be a very strong incentive to save, as well as the ability. This is what is captured in the ‘rule-of-thumb’ model, analysing consumption and saving in a social context rather than as an abstract optimisation problem.
+
+It is finally worth noting that empirically growth has been shown to Granger cause saving and indeed investment see (\textcite{Carroll94,easterly2001}). In addition, these results will be updated with recent econometric analysis on the relation between growth savings and investment. The next section examines this question from a theoretical perspective.
+
+\section{Savings, investment and growth}
+\label{savingsinvestmentandgrowth}
+
+One of the most common diagnoses of slow growth and lack of development is a low savings ratio. Low savings are said to lead to inadequate finance for investment and thus constrain development. Low savings rates are often attributed to financial repression (controlled interest rates) or the underdevelopment of financial institutions discouraging financial intermediation.
+
+This explanation is supported by the narrative in which the lack of savings raises market interest rates, while government intervention to lower interest rates distorts the process of capital allocation and financial intermediation by the banking and financial system. It sounds very plausible and fits in with the standard orthodox approach in which almost economists are trained. It is, however, an explanation which is not logically consistent, and also which does not have an empirical basis.
+
+The logical inconsistency can be seen very clearly by means of two thought experiments. In the first we consider an economy with low saving and investment. An effective measure is taken to encourage saving.\footnote{It is not clear what the nature of such a measure would be. Policy makers have been notoriously unsuccessful in finding levers to increase savings.} Consumers reduce their expenditure and deposit the non-consumed funds in the banking system. The banking system, however, has no additional liquidity, as every peso, rupee or real deposited by consumers constitutes a reduction in funds held by producers in the banking system.
+
+The second thought experiment is the following: suppose the authorities take measures to increase confidence in the banking system. Suppose further that the result of these measures is to encourage the deposit of hoarded funds and or precious metals with the banking system. In this case, the banks will have additional liquidity and the ability to lend, without there having been any change in savings. In effect if investment is constrained by a lack of lending, this cannot be solved by increasing saving. If an increase in lending allows an increase in investment, in a economy employed at full capacity, then clearly there will be macroeconomic consequences to the increase in investment, in the form of inflation and or an increase in the deficit of the current account of the balance of payments. Inflation would reduce both ex-ante consumption and investment to levels consistent with capacity, while the increased balance of payments deficit would imply additional external financing. In both cases investment would be higher than in the previous situation, without an increase in the propensity of households and producers to save.
+
+\subsection{Why are investment and savings rates low in some countries?}
+\label{whyareinvestmentandsavingsrateslowinsomecountries}
+
+If a low propensity to save cannot logically be a cause of low investment and growth, then it is important to provide a coherent explanation for the observed cases of low savings and investment. It is often presumed that, particularly in developing countries, the distance from the technological frontier, and the relative lack of capital, implies that there must be many highly profitable investment opportunities with returns that far exceed those in the most developed countries. The fact that investment levels are often lower in developing countries and that capital often flows from poorer to richer countries\footnote{See the debate on the paradox of capital flows which started with \textcite{lucas1990}.} suggests that it is necessary to examine the factors determining the level of investment.
+
+The first question is whether profitable investment opportunities exist, at least in principle. By this we mean that if an investor were to secure the physical capital, do the necessary inputs, in the form of labour, raw materials and other inputs, exist to produce saleable output with a positive return on the capital. The answer in almost all countries to this question must be positive. Indeed it is this positive answer that is the basis of the paradox of capital flows from poor countries to rich ones, and also the reason that, for many decades, development was simply seen as a question of making the necessary capital available to developing countries, in order to realise the returns technically available. This was the consequence of the narrative which suggested that if investment opportunities exist, these will be seen by entrepreneurs and investment will be forthcoming if the finance is available. The absence of such investment in many cases was ascribed to the lack of finance (or the lack of savings).
+
+This narrative, however, ignored four far more important questions.
+
+\begin{enumerate}
+\item The first of these is often a basic lack of knowledge (or managerial know-how) among potential entrepreneurs about which are viable investments. The result is that many investments fail, and that the return on capital is not a tight distribution around a well defined mean but rather a distribution with a very large variance in which the most successful investments may have returns in triple digits, while a substantial majority have very low and in many cases negative returns. This problem can be mitigated (but certainly not eliminated) through effective banking institutions, with good governance, where the key role is not so much the transformation of short term deposits into long term lending but rather, the scrutiny of investment proposals (see the discussion below).
+
+\item A second fundamental issue is the “governance environment” of investment. Do there exist the institutions which protect investments and their returns from predatory behaviour by private competitors, politicians and state institutions? This is more than a question of pro-forma respect for property rights, but concerns the issue of whether economically and politically powerful actors are constrained by the rule of law. If they are not, the volume of desired investment is likely to be restricted or directed into rent extraction rather than wealth creation.
+
+\item Thirdly, there are the traditional constraints to investment - the existence of quality infrastructure (particularly transport and energy) and a well qualified labour force. These will play an important role in determining which investments may be technically and economically viable.
+
+\item Finally there is the issue of the effectiveness of the banking and financial system. It is clearly possible that viable investments requiring credit may be turned down by banks or other financial institutions, or indeed by the individual holders of financial assets. This may be because of information asymmetry between the investor and the lender, or risk aversion of the lender, an inability of the lender to identify the difference between viable and non-viable projects, or possibly political or sectoral criteria used by the lender to identify potential investments. Any of these factors would reduce the volume of investment in viable activities, and potentially increase the volume of investment in non-viable activities.
+
+\end{enumerate}
+
+The level and quality of viable investment will thus be determined by these four factors, which are likely to dominate the prospects of returns.
+
+\subsection{The quality of investment}
+\label{thequalityofinvestment}
+
+In this section it is argued that the observed low savings rates in many developing countries are more likely to be the result of the low quality of investment - by this it is meant investment which includes a significant proportion of expenditure on ‘capital’ which is not productive. \textcite{pritchett2000} describes this phenomenon in great detail for the public sector. In particular he notes that:
+
+\begin{quote}
+The value of capital and cost of investment will diverge \emph{ex post} for at least three reasons: relative price shifts, technological changes, and mistakes. Since the value of a capital good depends on expected future prices, not fully anticipated changes in relative prices will change the value of capital goods. These changes in relative prices can stem either from terms of trade changes or from policy reforms (for example, a decline in value of capital equipment devoted to import substitution following tariff reductions). Technological innovations create a process of “creative destruction” that reduces the value of existing capital stocks that embody old techniques due to innovation… Finally, even though private investors equate costs and expected value, when investing the private sector often makes (large) mistakes. The private sector will have its share of \emph{ex post} white elephants either through underestimating costs or overestimating potential profits. \parencite[p. 363]{pritchett2000}
+\end{quote}
+
+The implicit assumption in all analyses of productivity and capital accumulation in economies is that capital is accumulated in each sector ($s$) of an economy is given by the following equation:
+
+$$K^{s}_t =K^{s}_{t-1} - \delta^{s}K^{s}_{t-1} + I^{s}_t$$
+
+Where $K^s_t$ is the capital stock in time $t$ of sector $s$ and $\delta^{s}$ is the rate of annual depreciation in sector $s$, while $I^{s}_t$ is investment in sector $s$ for time period $t$. The sectors could represent public and private sectors or different economic sectors of the economy. Thus, summing across sectors, the productive capital stock of the economy is given by:
+
+$$K_t =\sum\limits_{s=1}^n K^s_t$$
+
+However, the above presumes that all investment has produced productive capital, or in other words the value of the capital created is the cost of the initial investment, and that no investment is wasted or unfinished. This assumption would appear to be quite unwarranted, but as Pritchett notes, never stated or challenged in empirical work on capital, growth and development. Immediately one considers the enormous number of investments, both public and private, which are either never finished or are soon abandoned, once their economic unviability becomes apparent, it is clear that any definition of capital based upon Cumulated Depreciated Investment Effort (CUDIE), as Pritchett terms it, is likely to be wrong by orders of magnitude for most developing countries. Erroneous estimates of capital from such methods contribute to convoluted debates to explain how Total Factor Productivity declines in many countries over significant periods of time.\footnote{See for example \textcite{lopezcordova2016,worldbank2014g} for discussions of these issues in the cases of Mexico and Brazil. In addition \textcite[p. 375]{pritchett2000} shows that 55\% of developing countries have negative total TFP growth over the thirty year period from 1960 to 1990 using the standard formulation of capital accumulation from Equation (\ref{eqn:cudie}).}
+
+An alternative formulation is to include in the calculation of the accumulated capital a factor $\gamma$ to represent the difference between investment effort $I^{s}_t$ and investment which results in the creation of capital, as follows:
+
+$$K^{s}_t =K^{s}_{t-1} - \delta^{s}K^{s}_{t-1} + \gamma^{s}_t I^{s}_t$$
+
+In this formulation, $\gamma^{s}_t$ could vary between one and zero, with a value of one implying that investment was of ‘maximum’ quality, with all investment leading to the creation of productive capital at market prices, and zero implying that investment effort led to no creation of productive capital.
+
+While traditionally $\gamma$ has been assumed to be unity, thus allowing the estimation of TFP growth from a capital stock calculated as a perpetual inventory, using the Solow growth equation , Pritchett makes an assumption of positive TFP growth (1\%) to calculate the implied value of $\gamma$, which is the proportion of investment effort actually converted into productive capital. The results of the calculations suggest that in many countries the ‘effective’ capital stock is far below the traditionally measure one, and that much ‘investment’ which takes place does not have any value or generate any additional output or income.
+
+\subsection{The determination of the rate of growth}
+\label{thedeterminationoftherateofgrowth}
+
+In previous sections it was shown how the savings rate could depend directly on the growth rate of the economy. It was also shown that traditional measures of investment and capital accumulation often fail to capture the volume of effectively wasted investment, which appears in the data as negative or very low growth of total factor productivity. This suggests that one of the principal factors determining growth rates is the quality of the public and private institutions underpinning the choice of investment.
+
+If, in a relatively undeveloped country, public and private institutions emerge to ensure that i) public investment in infrastructure is effective and relevant to growth and ii) there is filter to ensure that private sector investment is broadly directed to productive goals and that ineffective investment is quickly eliminated, it possible to envisage a cycle in which investment quickly generates growth. The growth generates the necessary saving and thus finance is not the constraint of investment and growth. An examination of the countries which have managed to take-off in recent decades will show that these are the two critical factors.
+
+\subsection{The role of the rate of interest}
+\label{theroleoftherateofinterest}
+
+It will be clear from the above arguments that there is little role for the rate of interest to perform an to equilibrate savings and investment in the economy. Indeed, as discussed previously, the idea that an increase in the rate of interest could increase savings and therefore investment and growth is both logically and empirically unfounded.
+
+There is a wealth of empirical evidence suggesting that saving is insensitive to changes in interest rates. Monetary policy (largely through interest rate movements) may have affects on private consumption and investment decisions. However, once one removes the axiom of the maximisation of intertemporal utility as the dominant motivation for consumers, the scope for interest rates to affect private consumption decisions is considerably diminished. This is consistent with the empirical literature [cite sources] on the relatively low elasticity of consumption to interest rates.
+
+Whether interest rates will affect private consumption significantly will depend very much on the institutional framework for consumption. In an economy in which a large part of the population buys houses on mortgages (particularly variable rate mortgages), there is no doubt that interest rates will affect income and consumption, both through the purchase of new housing (which also drives a significant part of the consumer durable market) and through the \emph{income and wealth} effects on existing borrowers, where a rise in the interest rate will act as a tax on the borrower’s income and (over time) reduce the perceived value of assets (such as property). However, those parts of the population who are credit constrained or holders of financial assets will, in the former case, be insensitive to interest rate changes, and in the latter, have a positive income effect for a rise in the interest rate. Thus the social and institutional structure will determine if there is any sensitivity of consumption to interest rate movements.
+
+The relationship of physical investment to interest rates is also unlikely to be a smooth monotonic function. In the paradigm of the macroeconomic textbooks entrepreneurs have the choice of investing in numerous projects with a well defined rate of return (possibly with a well defined variance around the expected rate of return). If the expected rate of return exceeds the interest rate (and the entrepreneur can secure the necessary capital - from borrowing, equity or own resources) the investment is likely to take place.
+
+Hence, in this approach a fall in the (real) rate of interest will tend to raise the volume of investment, while a rise will diminish the volume of investment. There is little doubt that very high real rates of interest are effective in curtailing investment, and indeed severe monetary contractions can very quickly reduce investment levels, by raising enormously the risk of investment, in a moment when demand for final output is likely to fall. While the comparison of the relative returns on financial assets and physical investment may have some effect, there is little doubt that the principal effect of raising interest rates is to reduce the expected return of investment, through expected falls in aggregate demand. As discussed previously the likelihood of a very high variance of the rate of return on investment (particularly in countries with weak institutional structures), is also likely to reduce the elasticity of investment to the rate of interest.
+
+Low rates of interest, however, may not have symmetric effects. While they may reduce slightly the costs of investment, they will not increase expected returns by as much as high rates depress expected returns. The experience of ultra-low interest rates since 2008 is perhaps the clearest illustration of this point. There has not been an extraordinary investment boom by historical standards. Nor have zero real or nominal rates suddenly made previously unviable investments viable, precisely because of the uncertainty over returns. What low interest rates \emph{have} done is to raise asset prices, (property, shares, cryptocurrency, etc.), often purchased using cheap credit to leverage returns,\footnote{This is the essence of Minsky’s Financial Instability Hypothesis, \textcite{Minsky77,Minsky86} which argues that financial crises are not aberrations or due to policy errors, but rather inherent characteristics of capitalist economies with financial markets.} as wealth holders look for alternative (and often more risky) assets to produce a return. Over time the rise in asset prices may also contribute to raising consumption through wealth effects, at the expense of increasing the risks of reversing monetary policy, as evidenced by the economic crises of 2008 and 2022.
+
+All these considerations suggest that private expenditure on consumption and investment may be affected by monetary policy in an uncertain and unpredictable manner. The effects of monetary policy will depend upon changing views about the future, of both consumers and investors. They are unlikely to be linear or even monotonic. In these circumstances, while it may be possible to identify at a specific moment in time an interest rate which will be consistent with full employment of resources at a low inflation rate, there will be nothing natural or stable about this interest rate, and indeed, in many circumstances it may not exist. There is no reason that a natural interest rate should exist (see \textcite{Clarke96}) once we dispense with the idea that interest rates in some sense reflect a trade-off between present and future consumption for consumers engaged in an exercise of intertemporal utility maximisation, or that it is related to the real (unknowable) return to physical capital.
+
+\section{Summary and conclusions}
+\label{summaryandconclusions}
+
+Through a re-examination of the assumptions underlying orthodox models of savings, investment and the interest rate, this paper attempts to i) provide an explanation for the high savings rates observed in some developing countries in recent decades; ii) demonstrate that low savings rates are not usually a constraint on growth and development, but rather the result of low growth and low quality investment; iii) demonstrate that, while the interest rate may impact investment, and sometimes savings, it is impossible for the interest rate to act as an equilibrating mechanism for ex-ante savings and investment, and therefore the concept of a “natural” or “equilibrium” interest rate or $r^*$ is meaningless.
+
+\section{Introduction}
+\label{ref1}
+
+\subsection{The Narrative of Secular Stagnation}
+\label{thenarrativeofsecularstagnation}
+
+Over the last decade there has been considerable discussion of the world entering a period of ‘secular stagnation’. The ‘secular stagnation’ hypothesis was first introduced to discussions on economic policy by Alvin Hansen in an address to the American Economic Association \parencite{Hansen39}. His argument was essentially that investment possibilities depended on either population growth or the rapid advance of technology, and that the apparent slowdown of technological innovation at the same time as a reduced growth of population had led to a fall in the level of investment relative to savings. The hypothesis was not borne out by history at the time.
+
+However, the hypothesis was revived by Larry Summers in 2013 \parencite{summers2014,Summers14,summers2015} following financial crisis of 2007--2008, and the observation that despite record low interest rates, there appeared to be no revival of inflation, while growth of output and employment remained modest. \textcite{summers2015} notes that even prior to the 2007--2008 crisis the there was a general view that monetary policy had been too easy and that there was a large amount of imprudent borrowing. However, this lax monetary policy had not resulted in a great boom, capacity was not under any pressure and unemployment was not remarkable low, while inflation was well under control. Thus his argument was that there had been a secular decline in the ‘neutral’ rate of interest, consistent with full employment and low inflation, as desired investment had not risen to match desired saving.
+
+Moreover secular stagnation appeared to be a global phenomenon. Global interest rates had been falling since the early 1990s. The surplus of savings over investment in China has manifested itself through a sustained current account surplus and build up of foreign reserves. Japan has suffered from stagnation, deflation and negative interest rates for three decades and Europe and the US for at least two decades. \textcite{rachel2019} estimate that the world “neutral” real rate of interest has fallen by 300 basis points since 1980, but would have fallen by 700 points, had there not been significant offsets from fiscal and social insurance policies.
+
+\textcite{Summers14} argues that the phenomenon of secular stagnation raises serious policy dilemmas as as it becomes difficult to simultaneously achieve adequate growth, capacity utilisation, and financial stability. This paper will argue that there is a clear solution to this policy dilemma which has been obscured by a misleading narrative on the role of the interest rate in a market economy.
+
+\subsection{Narratives of Savings and Investment}
+\label{narrativesofsavingsandinvestment}
+
+This paper examines the theoretical and empirical approaches to the role of savings and investment in macroeconomic development, and suggests that the analysis of the relationships between savings, investment and interest rate has been distorted by what \parencite{Shiller19,Shiller21} would term as “narratives”. These are powerful stories which subtly influence theoretical and empirical approaches to the relationship between these key macroeconomic variables. The key stories are i) that interest is the reward for waiting, or for deferring consumption; ii) savings are required for investment and therefore at a macroeconomic level a lack of savings can be constraint to growth and development; iii) the long-run real interest rate is determined by the balance between desired \emph{ex-ante} saving and desired (\emph{ex-ante}) investment. It will be argued that
+
+\subsection{The origins of the natural rate of interest}
+\label{theoriginsofthenaturalrateofinterest}
+
+One of the key narratives in economics is that of the natural or neutral rate of interest. This idea was first formulated by Wicksell in the following statement:
+
+\begin{quote}
+“There is a certain rate of interest on loans which is neutral in respect to commodity prices, and tends neither to raise nor to lower them. This is necessarily the same as the rate of interest which would be determined by supply and demand if no use were made of money and all lending were effected in the form of real capital goods. It comes to much the same thing to describe it as the current value of the natural rate of interest on capital.” \textcite[p.~102]{Wicksell36}
+\end{quote}
+
+Summers makes the explicit connection with Wicksell’s in his discussion of secular stagnation:
+
+\begin{quote}
+“Excess savings tend to drive interest rates down, and excess investment demand tends to drive them up. Following the Swedish economist Knut Wicksell, it is common to refer to the real interest rate that balances saving and investment at full employment as the “natural,” or “neutral,” real interest rate. \parencite[p.~4]{summers2016}
+\end{quote}
+
+In this formulation the “natural” rate of interest is equivalent to the unobservable return to physical capital. The idea is that when the observable money rate of interest is equal to this return on capital there will be no pressure on prices (either upwards or downwards). The notion is very similar to that adopted by monetary policy makers currently. For example, in a speech on the challenges of monetary policy Jerome Powell notes that:
+
+\begin{quote}
+“… the general level of interest rates has fallen both here in the United States and around the world. Estimates of the neutral federal funds rate, which is the rate consistent with the economy operating at full strength and with stable inflation, have fallen substantially, in large part reflecting a fall in the equilibrium real interest rate, or “r-star.” This rate is not affected by monetary policy but instead is driven by fundamental factors in the economy, including demographics and productivity growth— the same factors that drive potential economic growth.” \textcite{powell2020}
+\end{quote}
+
+The idea of the “neutral” rate of interest in monetary policy, is very close to Wicksell’s, and in Powell’s formulation the central goal of monetary policy is to set interest rates at this neutral rate, which is consistent with full employment and price stability, and determined by macroeconomic fundamentals, in the real economy. The quote from Powell’s speech also illustrates how a falling neutral rate of interest may be seen as both a symptom and a cause of secular stagnation.\footnote{See for example \textcite{rachel2019,rachel2019a,Summers14,summers2014}. The declining neutral rate is attributed to factors such as demographics and relatively cheap capital, but also contributes to secular stagnation by reducing the room for monetary policy to correct the stagnation due to the implied lower bound on nominal interest rates.}
+
+In Wicksell’s formulation, there was the implicit assumption that of the natural tendency for an economy to full employment through endogenous price (including interest rate) adjustments.
+
+\subsection{The fallacy of the natural or equilibrium rate of interest}
+\label{thefallacyofthenaturalorequilibriumrateofinterest}
+
+All the above arguments depend on the idea that there exists a \emph{real} rate of interest (positive or negative) that will be consistent with full employment of resources in the economy. This notion in turn implicitly relies upon the main aggregates of spending (investment and consumption) being monotonic and stable functions of the real rate of interest in which $\frac{\partial I}{\partial r} < 0$ and $\frac{\partial C}{\partial r} < 0$. It is also implicit that the range of this ‘equilibrium’ real interest rate should be not very far from a low positive value. If it were to move outside accepted commonly accepted ranges, it is likely that the income and wealth effects of an ‘equilibrium’ rate of say -10\% or +10\% would destabilise any potential full employment equilibrium. Simply stating these conditions makes clear that the existence of a reasonable equilibrium real rate at all times is doubtful.
+
+\textcite{Palley19}, for example, notes that in pure theory changes in interest rates produce both substitution and income effects and that consequently the direction of effects of changes in real interest rates on consumption are uncertain, and will certainly depend on the distribution of debts and credits throughout the economy. He also highlights the importance of the existence of Non-Reproducible Assets (NRAs)\footnote{Palley gives examples of NRAs such as fiat money, precious metals and minerals, land, rent streams from firms with market power, and intellectual property such as patents and copyrights. To this list could be added crypto currencies and tokens. All have in common that, particularly in an era of low inflation and low (possibly negative) nominal interest rates, they can generate a return and substitute productive investment, due to their non--reproducibility.} as substitutes for investment, which will impede the workings of the interest rate as a mechanism to equilibrate savings and investment. A further potential problem noted by Palley is that well known behavioural mechanisms such as the endowment effect \parencite{kahneman1990}, whereby negative (real or nominal) interest rates may encourage saving to replace lost financial assets. Econometrically one of the most robust determinants of private saving is the rate of inflation. In their analysis of 165 countries over the period 1981--2012 \textcite{Grigoli14} find the following result:
+
+\begin{quote}
+Increased macroeconomic uncertainty, proxied by higher inflation, leads to increased private precautionary saving. An increase of inflation by one pp is associated with a 0.39 pp rise in the private saving rate. According to this result, the moderation of inflation rates observed around the world since the 1990s contributed to a decline in private saving. \parencite[pp.24-25]{Grigoli14}
+\end{quote}
+
+This would again seem to suggest a negative relationship between saving and real interest rates (at least in some circumstances), indicating a non-monotonic function in which, over some ranges $\frac{\partial C}{\partial r} > 0$.
+
+Final point is that there is already a mechanism for investment and saving to equilibrate - that is changes in income
+
+\subsection{The rate of interest and the return to capital}
+\label{therateofinterestandthereturntocapital}
+
+One of the questions which might arise is how is it possible for the rate of interest to differ (persistently) from the rate of return to capital. The answer is simply that the rate of return to capital is not known \emph{ex-ante}. Thus if the \emph{ex-post} rate of return to capital were to rise, this might well raise the incentive to invest. However, investors have no means of knowing that the rate of return to capital for new investments will be equal to the observed \emph{ex-post} rate of return. Moreover, the return on any particular investment will be very uncertain, given that the \emph{ex-post} return to capital is likely to have a very large variance, and include investments which have returns of several orders of magnitude greater than the mean, as well as investments which have strongly negative returns. In these circumstance there can be no mechanism which will tend to equalise money rates of interest to the returns to physical investment.
+
+It would also be the case that investment would not be very sensitive to changes in interest rates, but much more to the availability of credit. A change in the rate of interest, if credit is available, would simply make a small difference to the risk of losses from the investment (which behavioural theory\footnote{See for example the empirical work on loss aversion: \textcite{benartzi1995,kahneman1991,novemsky2005,thaler1997,tversky1991}} would suggest is one of the main factors in determining whether an investment will be carried out or not). On the other hand the availability, or otherwise, of credit at whatever interest rate, could determine the feasibility of an investment.
+
+\section{Savings Investment and Growth in Macroeconomic Theory}
+\label{savingsinvestmentandgrowthinmacroeconomictheory}
+
+\subsection{The Solow Growth Theory}
+\label{thesolowgrowththeory}
+
+The canonical model of growth is that of \parencite{Solow56} in which growth is the result of the process of capital accumulation and increases in the labour force. The model is extended in \parencite{solow1957} to include the possibility of exogenous technical progress. What was later called Total Factor Productivity (TFP) is exogenous productivity $A$ in Equation (\ref{eqn:solow_tfp}) below. In this formulation we have:\footnote{See \textcite[p. 312]{solow1957}}
+
+\begin{equation}
+\label{eqn:solow_tfp}
+\frac{\dot{Q}}{Q} = \frac{\dot{A}}{A} + w_K\frac{\dot{K}}{K} + w_L\frac{\dot{L}}{L}
+\end{equation}
+
+Where $Q,A,K,L$ are output, productivity, capital and labour respectively and $w_K$ and $w_L$ are the shares of capital and labour in national income.
+
+\subsection{The quality of investment and the savings rate}
+\label{thequalityofinvestmentandthesavingsrate}
+
+\subsubsection{A basic accounting framework for investment and savings}
+\label{abasicaccountingframeworkforinvestmentandsavings}
+
+To understand the relationships between savings, investment and interest rates in the economy, it is important to have a consistent National Accounting Framework integrated with the financial system. This is described briefly in the identities below (for the moment we will leave out any behavioural equations).
+
+\begin{align}
+GDP &= INV + CONS + EXP - IMP \\
+INV &= INV_{pri} +INV_{pub}
+\end{align}
+
+\subsubsection{Savings as a constraint to growth and development?}
+\label{savingsasaconstrainttogrowthanddevelopment}
+
+One of the most common diagnoses of slow growth and lack of development is a low savings ratio. Low savings lead to inadequate finance for investment and thus constrain development. Low savings rates are often attributed to financial repression (controlled interest rates) or the underdevelopment of financial institutions discouraging financial intermediation.
+
+This explanation is supported by the narrative in which the lack of savings raises market interest rates, while government intervention to lower interest rates distorts the process of capital allocation and financial intermediation by the banking and financial system. It sounds very plausible and fits in with the standard orthodox approach in which almost economists are trained. It is, however, an explanation which is not logically consistent, and also which does not have an empirical basis.
+
+The logical inconsistency can be seen very clearly by means of two thought experiments. In the first we consider an economy with low saving and investment. An effective measure is taken to encourage saving.\footnote{It may not be clear what the nature of such a measure would be. Policy makers have been notoriously unsuccessful in finding levers to increase savings.} Consumers reduce their expenditure and deposit the non-consumed funds in the banking system. The banking system, however, has no additional liquidity, as every peso, rupee or real deposited by consumers constitutes a reduction in funds held by producers in the banking system.\footnote{A formal demonstration of this is shown in the first part of Appendix 1}
+
+The second thought experiment is the following: suppose the authorities take measures to increase confidence in the banking system. Suppose further that the result of these measures is to encourage the deposit of hoarded funds and or precious metals with the banking system. In this case, the banks will have additional liquidity and the ability to lend, without there having been any change in savings.\footnote{See the second part of Appendix 1 for a formal treatment} In effect if investment is constrained by a lack of lending, this cannot be solved by increasing saving. If an increase in lending allows an increase in investment, in a economy employed at full capacity, then clearly there will be macroeconomic consequences to the increase in investment, in the form of inflation and\slash or an increase in the deficit of the current account of the balance of payments. Inflation would reduce both ex-ante consumption and investment to levels consistent with capacity, while the increased balance of payments deficit would imply additional external financing. In both cases investment would be higher than in the previous situation, without an increase in the propensity of households and producers to save.
+
+\subsubsection{Why are investment and savings rates low in some countries?}
+\label{ref2}
+
+If a low propensity to save cannot logically be a cause of low investment and growth, then it is important to provide a coherent explanation for the observed cases of low savings and investment. It is often presumed that, particularly in developing countries, the distance from the technological frontier, and the relative lack of capital, implies that there must be many highly profitable investment opportunities with returns that far exceed those in the most developed countries. The fact that investment levels are often lower in developing countries and that capital often flows from poorer to richer countries\footnote{See the debate on the paradox of capital flows which started with \textcite{lucas1990}.} suggests that it is necessary to examine the factors determining the level of investment.
+
+The first question is whether profitable investment opportunities exist, at least in principle. By this we mean that if an investor were to secure the physical capital, do the necessary inputs, in the form of labour, raw materials and other inputs, exist to as to be able to produce saleable output with a positive return on the capital. The answer in almost all countries to this question must be positive. Indeed it is this positive answer that is the basis of the paradox of capital flows from poor countries to rich ones, and also the reason that development for many decades was simply seen as a question of making the necessary capital available to developing countries, in order to realise the returns technically available. This was the consequence of the orthodox narrative which suggested that if investment opportunities exist, these will be seen by entrepreneurs and investment will be forthcoming if the finance is available. The absence of such investment in many cases was ascribed to the lack of finance (or the lack of savings).
+
+This orthodox narrative, however, ignored four far more important questions.
+
+\begin{enumerate}
+\item The first of these is often a basic lack of knowledge (or managerial know-how) among potential entrepreneurs about which are viable investments. The result is that many investments fail, and that the return on capital is not a tight distribution around a well defined mean but rather a distribution with a very large variance in which the most successful investments may have returns in triple digits, while a substantial majority have very low and in many cases negative returns. This problem can be mitigated (but certainly not eliminated) through effective banking institutions where the key role is not so much the transformation of short term deposits into long term lending but rather, the scrutiny of investment proposals (see the discussion below).
+
+\item A second fundamental issue is the “governance environment” of investment. Do there exist the institutions which protect investments and their returns from predatory behaviour by private competitors, politicians and state institutions? This is more than a question of pro-forma respect for property rights, but concerns the issue of whether economically and politically powerful actors are constrained by the rule of law. If they are not, the volume of desired investment is likely to be restricted.
+
+\item Thirdly, there are what might be considered the traditional constraints to investment - the existence of quality infrastructure (particularly transport and energy) and a well qualified labour force. These will play an important role in determining which investments may be technically and economically viable.
+
+\item Finally there is the issue of the effectiveness of the banking and financial system. It is clearly possible that viable investments requiring credit may be turned down by banks or other financial institutions, or indeed by the individual holders of financial assets. This may be because of information asymmetry between the investor and the lender, or risk aversion of the lender, an inability of the lender to identify the difference between viable and non-viable projects, or possibly political or sectoral criteria used by the lender to identify potential investments. Any of these factors would reduce the volume of investment in viable activities, and potentially increase the volume of investment in non-viable activities.
+
+\end{enumerate}
+
+The level of viable investment will thus be determined, as in the orthodox narrative, by the prospects of returns, modified by the four factors above. In addition, as will be discussed in the next section, these factors will also allow for a greater or lesser degree of non-viable investment.
+
+We shall consider for the moment that the result of the four factors described above is that new gross private investment is at a relatively low level, say, for example, 15 per cent of GDP, and where there is no public investment and the economy is closed. There are a number of possibilities in this situation.
+
+\begin{enumerate}
+\item The first is that there will be unemployed factors of production (particularly labour).
+
+\item The second is that in order to increase the utilisation of capacity and to increase employment the public sector runs a budget deficit (by spending on public consumption).
+
+\item The final possibility is that the 15 per cent of GDP investment is consistent with full employment and a balanced budget.
+
+\end{enumerate}
+
+In each of these cases, summarised in Table x below, the level of national savings is equal to 15 per cent, as national accounting requires. The differences between the scenarios are that in the first the low level of investment corresponds to a higher potential level of savings (if factors were fully employed), that would have been observed, if the level of investment had not been restricted by the constraints described previously. In the second the public sector provides the necessary financial assets to satisfy the demand for savings by the private sector, such that private savings are greater than 15 percent, but are offset by dissaving by the public sector. In the third case macroeconomic equilibrium (and full employment) is established at a low level of savings and investment. In all cases, even if the investment is of high quality\footnote{By high quality it is meant that the investment is producing economic returns and generating a productive capital stock, as will be described in the next section.} long term growth is likely to be slow.
+
+While we will discuss the details of dynamic adjustment processes in a later section, it is worth considering the possible impact of changes in interest rates in any of the three scenarios above.
+
+\subsubsection{The quality of investment}
+\label{ref3}
+
+In this section it is argued that the observed low savings rates in many developing countries are more likely to be the result of the low quality of investment - by this it is meant investment which includes a significant proportion of expenditure on ‘capital’ which is not productive. \textcite{pritchett2000} describes this phenomenon in great detail. In particular he notes that:
+
+\begin{quote}
+The value of capital and cost of investment will diverge \emph{ex post} for at least three reasons: relative price shifts, technological changes, and mistakes. Since the value of a capital good depends on expected future prices, not fully anticipated changes in relative prices will change the value of capital goods. These changes in relative prices can stem either from terms of trade changes or from policy reforms (for example, a decline in value of capital equipment devoted to import substitution following tariff reductions). Technological innovations create a process of “creative destruction” that reduces the value of existing capital stocks that embody old techniques due to innovation… Finally, even though private investors equate costs and expected value, when investing the private sector often makes (large) mistakes. The private sector will have its share of \emph{ex post} white elephants either through underestimating costs or overestimating potential profits. \parencite[p. 363]{pritchett2000}
+\end{quote}
+
+The implicit assumption in all analyses of productivity and capital accumulation in economies is that capital is accumulated in each sector ($s$) of an economy is given by the following equation:
+
+\begin{equation}
+\label{eqn:cudie}
+K^{s}_t =K^{s}_{t-1} - \delta^{s}K^{s}_{t-1} + I^{s}_t
+\end{equation}
+
+Where $K^s_t$ is the capital stock in time $t$ of sector $s$ and $\delta^{s}$ is the rate of annual depreciation in sector $s$, while $I^{s}_t$ is investment in sector $s$ for time period $t$. The sectors could represent public and private sectors or different economic sectors of the economy. Thus, summing across sectors, the productive capital stock of the economy is given by:
+
+\begin{equation}
+\label{eqn:capsum}
+K_t =\sum\limits_{s=1}^n K^s_t
+\end{equation}
+
+However, the above presumes that all investment has produced productive capital, or in other words the value of the capital created is the cost of the initial investment, and that no investment is wasted or unfinished. This assumption would appear to be quite unwarranted, but as Pritchett notes, never stated or challenged in empirical work on capital, growth and development. Immediately one considers the enormous number of investments, both public and private, which are either never finished or are soon abandoned, once their economic unviability becomes apparent, it is clear that any definition of capital based upon Cumulated Depreciated Investment Effort (CUDIE), as Pritchett terms it, is likely to be wrong by orders of magnitude for most developing countries. Erroneous estimates of capital from such methods contribute to convoluted debates to explain how Total Factor Productivity declines in many countries over significant periods of time.\footnote{See for example \textcite{lopezcordova2016,worldbank2014g} for discussions of these issues in the cases of Mexico and Brazil. In addition \textcite[p. 375]{pritchett2000} shows that 55\% of developing countries have negative total TFP growth over the thirty year period from 1960 to 1990 using the standard formulation of capital accumulation from Equation (\ref{eqn:cudie}).}
+
+An alternative formulation is to include in the calculation of the accumulated capital a factor $\gamma$ to represent the difference between investment effort $I^{s}_t$ and investment which results in the creation of capital, as follows:
+
+\begin{equation}
+K^{s}_t =K^{s}_{t-1} - \delta^{s}K^{s}_{t-1} + \gamma^{s}_t I^{s}_t 
+\end{equation}
+
+In this formulation, $\gamma^{s}_t$ could vary between one and zero, with a value of one implying that investment was of ‘maximum’ quality, with all investment leading to the creation of productive capital at market prices, and zero implying that investment effort led to no creation of productive capital.
+
+While traditionally $\gamma$ has been assumed to be unity, thus allowing the estimation of TFP growth from a capital stock calculated as a perpetual inventory, using the Solow growth equation (\ref{eqn:solow_tfp}), Pritchett makes an assumption of positive TFP growth (1\%) to calculate the implied value of $\gamma$, which is the proportion of investment effort actually converted into productive capital. The results of the calculations suggest that
+
+\subsubsection{The macroeconomic implications of low quality investment}
+\label{themacroeconomicimplicationsoflowqualityinvestment}
+
+See \parencite{keynes1940,keynes2013}
+
+\subsubsection{The Role of Interest Rates in Saving and Investment}
+\label{theroleofinterestratesinsavingandinvestment}
+
+\subsubsection{Observed savings rates}
+\label{observedsavingsrates}
+
+\section{An alternative paradigm for consumption and saving}
+\label{analternativeparadigmforconsumptionandsaving}
+
+\subsection{Towards new micro-foundations for consumption and savings}
+\label{towardsnewmicro-foundationsforconsumptionandsavings}
+
+\subsubsection{Theories of consumption}
+\label{theoriesofconsumption}
+
+Most theories of consumption which form the micrcofoundations of macroeconomics start with the idea of the distribution of consumption through time being an inter-temporal optimisation problem for a “representative” household which maximises utility based upon expected income and subjective trade-offs between present and future consumption (for example \textcite{Deaton92,romer2018,walsh2017, gali2015}).
+
+The models of consumption in orthodox theories characterise consumption decisions as intertemporal allocation decisions in which consumers maximise their utility, which is a function of consumption in every time period. For example \textcite{Deaton92} describes the basic model as follows:
+
+\begin{quote}
+“consumption is financed from life-time earnings or from inherited assets, and consumers use capital markets to decouple the time-pattern of earnings and assets from the desired pattern of consumption. As always, choice is governed by a set of intertemporal preferences, which in their most general form, might be written
+\end{quote}
+
+\begin{quote}
+\begin{equation}
+u = V(c_1,c_2,c_3,..c_T)
+\end{equation}
+\end{quote}
+
+\begin{quote}
+where periods 1 through T are the years of life, so that as the consumer ages and chooses each year's level of consumption, he or she ‘fills in’ the blanks in the life-cycle utility function (4).
+
+The preferences represented by (4) allow unlimited patterns of complementarity and substitutability between consumption levels in different periods, and such a specification is too general for most purposes. I shall discuss various special cases in this book, but by far the most widely used assumption is that preferences are \emph{intertemporally additive}, or \emph{strongly intertemporally separable}, in which case (4) takes the special form
+\end{quote}
+
+\begin{quote}
+\begin{equation}
+u = v_1(c_1) + v_2(c_2) + … + v_t(c_t)
+\end{equation}
+\end{quote}
+
+\begin{quote}
+where the individual period ‘subutility’ or ‘felicity’ functions $v_t(c_t)$ are increasing and concave in their single arguments. With or without separability, utility is maximized subject to a lifetime budget constraint that is the obvious generalization of (3),
+\end{quote}
+
+\begin{quote}
+\begin{equation}
+\sum\limits_1^T \frac{c_t}{(1+r)^t} = A_1 + \sum\limits_1^T \frac{y_t}{(1+r)^t}
+\end{equation}
+\end{quote}
+
+While there have been many critiques of the “rational” optimisation model of consumer behaviour,\footnote{Among the earliest was the work of \textcite{Simon55}, which has very gradually led to the development of a considerable empirical literature, anchored in psychological science which suggests that the rational optimisation model is inconsistent with the computational abilities of the human mind, and with the actual way in which people take decisions (see for example \textcite{tversky1991,akerlof2002,tversky1974,kahneman1979,kahneman1990,kahneman2003,kahneman2011,thaler1994,thaler2016,thaler2018,}).} this has tended to dominate orthodox discourse because of its mathematical tractability, even though it has relatively weak empirical support.
+
+The purpose of this section is to outline a framework for a consumption \slash  saving function which is consistent with known social behaviour rather than a mathematically tractable optimisation paradigm. Broadly speaking the framework will be consistent with the life-cycle approach to savings formalised by \textcite{modigliani1966,modigliani1986}, but will also build upon Kalecki's \parencite*{kalecki1935,kalecki1965} work in which the society is divided into workers and capitalists, and where the workers have a savings ratio of zero.
+
+In our framework, those households which are able to, save essentially in order to avoid catastrophe or destitution, including to provide resources for retirement, or to accumulate political and social power. What this means in practice is that the principal motives for saving are the precautionary motive, whereby savings are needed to cushion unexpected falls in income (through unemployment for example), or unexpected expenditures on accidents and emergencies (particularly for health), and for maintaining consumption during retirement, or for a few, as a means to obtaining and maintaining power. It is proposed to extend the framework to include three social groups divided broadly by income.
+
+\subsubsection{The Poor}
+\label{thepoor}
+
+The first is the poor,\footnote{In addition to low paid workers this group would include unemployed and under--employed households, self--employed (informal sector) as well as very small businesses. The criteria is the relationship of income to consumption needs rather than occupational status.} in which income is insufficient (or only just sufficient) for physically and socially necessary consumption. Among the poor, who would be defined as those households with income close to or below that required to maintain the basic social minimum of consumption,\footnote{By this is meant sufficient resources for all essential needs (such as food, clothing, housing, education and basic health care) as well as minimum contribution to social obligations, including contributions to community and family events and provision of support for extended family confronting emergencies.} net saving will be close to zero. Even if some individuals are temporarily able to make small savings for contingencies, as necessities will be met through social and family links, and accumulated savings of one individual will often be called upon to meet emergency expenditures of family or friends (see for example \textcite{banerjee2011}, chapter 9). In the absence (or inadequacy) of public social welfare, those unable to work due to unemployment or old age, for example, will also be supported by family or informal social networks.
+
+\subsubsection{The Middle Class}
+\label{themiddleclass}
+
+The second group is a middle class which generally has sufficient resources for basic necessities but has to plan and save for contingencies and retirement and make the classic life-cycle decisions for the allocation of income, and therefore net savings will be dependent on a combination of demographic factors, risk aversity, income levels, and the availability of public social protection and health services. It is not suggested, however, that households in this category will be making impossible decisions to optimise consumption over their lifetimes in a radically uncertain world\footnote{Radical uncertainty is the notion that most future events are effectively unimaginable and therefore cannot be dealt with in a probabilistic framework that would be required for inter temporal optimisation. See \textcite{kay2020}}, but rather will be taking reasonable decisions to try and avoid major shocks to their life-style and social standing. This would include having resources available to meet moderate contingencies and not being put into the position of losing one’s house, becoming bankrupt or having to make major reductions in expenditure over an extended time.
+
+Within this group, the possession of assets, particularly financial and housing assets provides a service of security to the household. While expected future incomes, retirement dates, potential emergency expenditures and risks of unemployment would influence the rate of accumulation of assets, this would change over time as new information allowed households to update expectations. The choice between consumption and saving could be seen as one in which the benefits of immediate consumption are weighed against future risks and the security provided by increasing the pool of savings or assets.\footnote{This is similar to the approach of \textcite{rotheli2017} who showed that simply examining the trade--off between assets and consumption was an effective control mechanism to enable survival and under certain assumptions obtain an outcome not very different from the impossible constrained optimisation of traditional theory.} However this calculus should not be seen in terms of the “rational” intertemporal optimisation underlying most orthodox models of consumption behaviour. The perceived risks and the value of security of assets will be subjective and subject to waves of fear and optimism, as households receive new information and are infected by the opinions, fears and optimism of others. This inherent instability was central to Keynes idea of the fundamental uncertainty having a real and lasting impact on the real economy:
+
+\begin{quote}
+Actually, however, we have, as a rule, only the vaguest idea of any but the most direct consequences of our acts. Sometimes we are not much concerned with their remoter consequences, even tho time and chance may make much of them. But sometimes we are intensely concerned with them, more so, occasionally, than with the immediate consequences. Now of all human activities which are affected by this remoter preoccupation, it happens that one of the most important is economic in character, namely, Wealth. The whole object of the accumulation of Wealth is to produce results, or potential results, at a comparatively distant, and sometimes at an indefinitely distant, date. Thus the fact that our knowledge of the future is fluctuating, vague and uncertain, renders Wealth a peculiarly unsuitable subject for the methods of the classical economic theory. This theory might work very well in a world in which economic goods were necessarily consumed within a short interval of their being produced. But it requires, I suggest, considerable amendment if it is to be applied to a world in which the accumulation of wealth for an indefinitely postponed future is an important factor; and the greater the proportionate part played by such wealth-accumulation the more essential does such amendment become. \textcite{Keynes37b}
+\end{quote}
+
+Nevertheless, this approach to consumption and savings should not be interpreted to imply that consumption will be highly volatile. Rather it implies that consumption is unlikely to be affected by small (or large) changes in the interest rate or “rational” intertemporal optimisation over a long and uncertain future.
+
+\subsubsection{The Rich}
+\label{therich}
+
+The third group is the rich who have considerably more income than necessary to satisfy basic necessities, are able to indulge in luxury consumption and accumulate wealth, and indirectly power. For the rich (a combination of capitalists, rentiers and a few ``workers'' with special talents and very high incomes), once consumption needs\footnote{This is not a reference to needs in the literal sense, but rather socially determined consumption validating the wealth and status of the wealthy as in \textcite{Veblen89} or \textcite{duesenberry1949}.} have been satiated, the dominant motivation becomes the accumulation of wealth in order to exert power and influence. In this case, accumulated wealth, in addition to providing security, provides power over others, and, if unchecked, the ability to alter the rules of the game of the socio-economic system, in favour of those possessing the most wealth (see for example \textcite{cohen2012}). For the purposes of the current analysis, the important point here is that for this group, there is unlikely to be a significant correlation between income and consumption. Changes in volatile income would be largely reflected in changes in savings rather than consumption.
+
+Empirical work such as \textcite{mian2021b} and \textcite{IMF2022}  suggest that in fact the top income percentile of the population in the US saves more than total investment, and that this high level of saving has not boosted levels of investment, but is offset by dissaving of the bottom 50\% of the income distribution. The very high levels of saving among the highest income levels considerably undermines any universal rational consumer optimisation model, as opposed to an approach based in social realities.
+
+\subsection{The Implications of the alternative paradigm}
+\label{theimplicationsofthealternativeparadigm}
+
+\subsubsection{Moving away from rational optimization}
+\label{movingawayfromrationaloptimization}
+
+Clearly there is no sharp dividing line between each of the three groups and one would expect households on the border line between the poor and the middle class, or between the rich and the middle class to exhibit behaviour characteristic of a mixture of the two groups. This will not have any significant effect on our analysis.
+
+What is important, however, is that the savings and investment behaviour (as well as the effectiveness of fiscal and monetary policy) of economies will be determined by the relative sizes of each of these groups in the economy, and on the extent to which fiscal and monetary policies have differing impacts on each of the groups. For example. increases in taxation on the poor (particularly through indirect taxation) will simply reduce income and consumption (but cannot affect savings, as these will remain at zero). On the middle class taxation is likely to reduce both consumption and saving, while on the rich taxation should affect only saving given the independence of consumption from incomes. Similarly, public expenditure is likely to stimulate demand far more when directed towards the poorest than the most wealthy strata of society.
+
+The fundamental argument here is that the canonical optimisation problem for consumers is not the one described in most textbooks and outlined in Section \ref{theoriesofconsumption} (Theories of consumption) on page \pageref{theoriesofconsumption}, in which a consumer maximises utility subject to a budget constraint, and from which can be derived the narrative of consumption being inversely related to interest rates as summarised below:
+
+\begin{equation}
+\begin{aligned}
+\max{}\quad &u = \sum\limits_1^T \upsilon_t(c_t)  \quad &\textrm{(intertemporal utility)}\\
+\textrm{subject to} \quad & \sum\limits_1^T \frac{c_t}{(1+r)^t} = A_1 + \sum\limits_1^T \frac{y_t}{(1+r)^t} \quad &\textrm{(budget constraint)}\\
+\end{aligned}
+\end{equation}
+
+Rather, the problem faced by individuals is how to minimise the probability that in any time period initial assets plus income will be insufficient (or unavailable) to maintain a socially determined minimum level of consumption. Conceptually, this could be characterised as individuals or households attempting to hold reserves of assets in order to maintain a minimum level of consumption in the event of income shocks (such as unemployment) or expenditure shocks (such as health or social care expenditures), as well as accumulating reserves to cover retirement, and or inability to work due to disability, sufficient to cover probable life expectancy. Nevertheless, in the US in 2021, 40 percent of households did not have money set aside for emergencies and would need to borrow, sell assets or draw on other savings to confront a loss of income from employment. 32 percent of households had less than \$400 for emergency expenses, while 24 percent had difficultly paying normal monthly bills \parencite{federalreservesystem2022}.
+
+This suggests that once we move from a framework of rational optimisation by homogeneous households (which is recognised to be both psychologically and computationally impossible) to a more realistic approach in which consumption and saving levels are socially determined and in which the psychological objectives of households (the avoidance of loss and destitution and the pursuit of power, for both of which there is empirical evidence) are realistic, the macroeconomic impact of fiscal and monetary policy cannot be usefully explained though changes in the size of the public sector deficit or surplus, the ratio of debt to GDP, nor through changes in short-term interest rates. In each case an analysis of how the policies would impact the consumption and investment of each of the three broad groups, described above, would be necessary to evaluate their overall macroeconomic impact.
+
+\subsubsection{The demand for financial assets}
+\label{thedemandforfinancialassets}
+
+Once we reject the central axiom of orthodox economics that consumer behaviour is governed by the desire to maximise utility over time and across generations,\footnote{An impossible task computationally and, more importantly, conceptually, in the face of radical uncertainty.} and replace it with the notion of individuals acquiring financial assets as a form of insurance for the future without, necessarily, saving for specific purposes of future consumption, it becomes possible to talk about a demand for financial assets, per se, which have a value for the individual.
+
+This contrasts significantly from the orthodox view, as expressed, for example, in one of the leading textbooks of advanced macroeconomics:
+
+\begin{quote}
+At a more general level, the basic idea of the permanent-income hypothesis is a simple insight about saving: saving is future consumption. As long as an individual does not save just for the sake of saving, he or she saves to consume in the future. The saving may be used for conventional consumption later in life, or bequeathed to the individual’s children for their consumption, or even used to erect monuments to the individual upon his or her death. But as long as the individual does not value saving in itself, the decision about the division of income between consumption and saving is driven by preferences between present and future consumption and information about future consumption prospects. \parencite[375]{romer2018}
+\end{quote}
+
+The view of individuals acquiring financial assets for the purposes of security and insurance is not incompatible with many aspects of existing consumption theory. In particular, tendencies to smooth income, and to save for retirement, with lower savings rates for young populations, would be entirely consistent with the notion of a specific demand for financial assets. What would not be compatible would be the notion that changes to fiscal policy would have an impact on the private sector through anticipation of higher or lower taxes on future generations as suggested in the Ricardian equivalence literature, stemming from \textcite{barro1974}.
+
+The impact of fiscal policy on a closed economy could be described as one in which the private sector has a net demand for financial assets,\footnote{This net demand for financial assets could conceivably be negative, although in most growing economies is likely to to be positive. In this context we are only referring to effective demand for financial assets, by individuals or institutions, which gradually increase stocks over time, by a process of spending less than income.} while the public sector supplies financial assets through public deficits or contracts their supply through public surpluses. “Equilibrium” in this “market” is then obtained through increases and decreases in income.
+
+If the private sector is demanding, in aggregate, an increase in financial assets, by spending less than it receives, at full employment of national resources, the public sector must supply those financial assets in the form of an equivalent public sector deficit. If the public sector fails to supply the assets demanded, because it is implementing a (relatively) tight fiscal policy,\footnote{In this case fiscal policy is tight only relative to demand for financial assets. Thus, if the private sector is “demanding” new financial assets of 4 per cent of GDP, a deficit of 3 per cent of GDP could be considered tight. It will also be seen later (in section xxx) that the tightness of fiscal policy would also need to be measured with reference to the structure of public revenues and expenditure, and not only the volume of the deficit or surplus.} the result will be that income decreases until private sector demand for financial assets, contracts to the level of supply of public financial assets. Similarly, if the public deficit is greater than the demand for private sector financial assets and full employment of resources, incomes will tend to increase, if necessary through inflation, until the private demand for financial assets rises to meet the public sector deficit.
+
+In this framework it makes no sense to talk about the private sector anticipating future taxes to repay current deficits.\footnote{The idea of the private sector offsetting the fiscal stance (the Ricardian equivalence hypothesis) depends fundamentally on the axiom of individuals maximising life time utility from consumption.} The financing requirements of the public sector in the future depend on the a large number of complex real variables, including the future demographic structure of the population, the future volume and structure of investment, the nature of the future social contract and provisions for welfare, unemployment and health insurance, and indeed the nature, timing and outcomes of future wars. These are to all intents and purposes radically uncertain and unknowable.
+
+\subsubsection{Fiscal Policy and Monetary Policy under the alternative paradigm}
+\label{fiscalpolicyandmonetarypolicyunderthealternativeparadigm}
+
+Clearly, in this framework, the impact of fiscal policy would not depend just upon the magnitude of the public sector deficit relative to private sector demand for financial assets. The structure of spending and taxation will themselves affect private demand for financial assets. It is well known [quote sources] that different types of expenditure and revenue raising have different impacts on overall demand (\emph{i.e.} they have different fiscal multipliers). For example, changes to taxation or subsidies and transfers for high income earners have little effect on overall demand, while taxation and transfers to low income earners can be expected to have direct effects on the consumption of these groups.
+
+[This is consistent with the sketch of micro-foundations of consumption, dominated by the desire to obtain security against destitution for lower and middle income earners and the accumulation of wealth as a means to power and status for higher income earners, described in the previous section.]
+
+\paragraph{Monetary Policy}
+\label{monetarypolicy}
+
+Monetary policy (largely through interest rate movements) may have affects on private consumption and investment decisions. However, once one removes the axiom of the maximisation of intertemporal utility as the dominant motivation for consumers, the scope for interest rates to affect private consumption decisions is considerably diminished. This is consistent with the empirical literature [cite sources] on the relatively low elasticity of consumption to interest rates.
+
+Whether interest rates will affect private consumption significantly will depend very much on the institutional framework for consumption. In an economy in which a large part of the population buys houses on mortgages (particularly variable rate mortgages), there is no doubt that interest rates will affect income and consumption, both through the purchase of new housing (which also drives a significant part of the consumer durable market) and through the \emph{income and wealth} effects on existing borrowers, where a rise in the interest rate will act as a tax on the borrower’s income and (over time) reduce the perceived value of assets (such as property). However, those parts of the population who are credit constrained (particularly the “poor”, as described above) or holders of financial assets (largely the “rich” from above) will, in the former case, be insensitive to interest rate changes, and in the latter, have a positive income effect for a rise in the interest rate. Thus the social and institutional structure will determine if there is any sensitivity of consumption to interest rate movements.
+
+The relationship of physical investment to interest rates is also unlikely to be a smooth monotonic function. In the paradigm of the macroeconomic textbooks entrepreneurs have the choice of investing in numerous projects with a well defined rate of return (possibly with a well defined variance around the expected rate of return). If the expected rate of return exceeds the interest rate (and the entrepreneur can secure the necessary capital - from borrowing, equity or own resources) the investment is likely to take place.
+
+Hence, in this approach a fall in the (real) rate of interest will tend to raise the volume of investment, while a rise will diminish the volume of investment. There is little doubt that very high real rates of interest are effective in curtailing investment, and indeed severe monetary contractions can very quickly reduce investment levels, by raising enormously the risk of investment, in a moment when demand for final output is likely to fall. While the comparison of the relative returns on financial assets and physical investment may have some effect, there is little doubt that the principal effect of raising interest rates is to reduce the expected return of investment, through expected falls in aggregate demand. As discussed in section \ref{whyareinvestmentandsavingsrateslowinsomecountries} the likelihood of a very high variance of the rate of return on investment (particularly in countries with weak institutional structures), is also likely to reduce the elasticity of investment to the rate of interest.
+
+Low rates of interest, however, may not have symmetric effects. While they may reduce slightly the costs of investment, they will not increase expected returns by as much as high rates depress expected returns. The experience of ultra-low interest rates since 2008 is perhaps the clearest illustration of this point. There has not been an extraordinary investment boom by historical standards. Nor have zero real or nominal rates suddenly made previously unviable investments viable, precisely because of the uncertainty over returns. What low interest rates \emph{have} done is to raise asset prices, (property, shares, cryptocurrency, etc.), often purchased using cheap credit to leverage returns,\footnote{This is the essence of Minsky’s Financial Instability Hypothesis, \textcite{Minsky77,Minsky86} which argues that financial crises are not aberrations or due to policy errors, but rather inherent characteristics of capitalist economies with financial markets.} as wealth holders look for alternative (and often more risky) assets to produce a return, as discussed in section \ref{thefallacyofthenaturalorequilibriumrateofinterest}. Over time the rise in asset prices may also contribute to raising consumption through wealth effects, at the expense of increasing the risks of reversing monetary policy, as evidenced by the economic crises of 2008 and 2022.
+
+All these considerations suggest that private expenditure on consumption and investment may be affected by monetary policy in an uncertain and unpredictable manner. The effects of monetary policy will depend upon changing views about the future, of both consumers and investors. They are unlikely to be linear or even monotonic. In these circumstances, while it may be possible to identify at a specific moment in time an interest rate which will be consistent with full employment of resources at a low inflation rate, there will be nothing natural or stable about this interest rate, and indeed, in many circumstances it may not exist. There is no reason that a natural interest rate should exist once we dispense with the idea that interest rates in some sense reflect a trade-off between present and future consumption for consumers engaged in an exercise of intertemporal utility maximisation, or that it is related to the real (unknowable) return to physical capital.
+
+\paragraph{Fiscal Policy}
+\label{fiscalpolicy}
+
+The natural or neutral rate of interest conceptually is the solution to the system of Walrasian general equilibrium equations which would hypothetically maintain the economy at a full employment equilibrium, if nothing else ever changes. The equilibrium is never (and can never be) achieved, as it depends upon the existence of smooth convex preferences, and rational maximisation of utility by omniscient economic agents. In addition, and most importantly for this discussion, the “general equilibrium” will depend upon the fiscal stance.
+
+This point can be illustrated in a very schematic way as follows. Consider the case in which the Government has no budget deficit and finances all spending from taxation. An interest rate $r^*$, consistent with full employment and low inflation has been found. If the government then reduces (increases) expenditure without changing the rate of taxation a budget surplus (deficit) will emerge and aggregate demand will fall below (rise above) the full employment equilibrium. In the new situation the interest rate $r^*$ would no longer be the neutral interest rate and policy makers would have to search for a lower (higher) natural interest rate to achieve full employment with low inflation.\footnote{This assumes that in the new situation such an interest rate exists, once the non--linearities of the interest rate function on consumption, investment and asset prices are taken into account.}
+
+Another way of examining the issue is to recall the discussion of the demand for financial assets in section \ref{thedemandforfinancialassets}. A situation of insufficient demand with downward pressure on prices would normally induce the monetary authorities to lower interest rates until demand is raised.\footnote{The experience of the past two decades indicates that the combination of the potential zero lower bound on nominal interest rates, with non--linearities in the interest rate expenditure functions, it may be difficult to find a rate of interest consistent with full employment.} This is, however, equivalent to saying that at full employment there is a net demand for financial assets by the private sector, which requires a public sector deficit\footnote{The alternative is that a balance of payments surplus is generated by investment in export industries to allow the accumulation of external financial assets. This process, however, is unlikely to take place quickly and smoothly.} to supply them.
+
+In the Walrasian (or Arrow-Debreu) general equilibrium approach \parencite{arrow1954}, there cannot be a “demand” for financial assets as such, as we saw in the quote from Romer in section \ref{thedemandforfinancialassets} orthodox macroeconomic theory excludes the possibility of saving being valued by individuals in itself. In the approach proposed in this paper, individuals do value saving \slash  financial assets, in themselves, as security against an uncertain future. Simply changing the interest rate will not significantly alter this demand. Financial assets (which are not needed in a general equilibrium model) can only be acquired as the difference between income and expenditure.
+
+\section{Appendices}
+\label{appendices}
+
+\subsection{Appendix 1: Financing investment}
+\label{appendix1:financinginvestment}
+
+\subsection{Notes}
+\label{notes}
+
+\subsubsection{Alternative Policy Frameworks}
+\label{alternativepolicyframeworks}
+
+The previous arguments suggest an alternative institutional and policy framework might be possible. It is clear that raising interest rates sufficiently can choke off investment (not mainly through a rationally calculated rate of return calculation), but rather by increasing the risks of adverse outturns, particularly if others reduce investment levels. However, there is little theoretical or empirical support for the idea that reducing short term interest rates below the inflation target and possibly to zero or negative levels in nominal terms will have a substantial effect in stimulating physical investment (speculative financial investment is another matter). Certainly lowering rates will have little impact on consumption through the mechanism of rationally chosen time preference for consumption. It is arguable that even raising interest rates will only have an effect on consumption indirectly, by acting as a signal of greater uncertainty and risks, generating narratives of fear of unemployment and coming austerity requiring increased holdings of financial assets. In other words increasing interest rates may only raise savings by increasing fear and uncertainty.
+
+Thus if at low rates of interest there is insufficient demand and a tendency towards deflation in the economy, lowering interest rates will not have a symmetric effect with raising interest rates to reduce excess demand. In effect, it might be said that low demand at low interest rates is symptomatic of a desire by the private sector to accumulate financial assets, which can only be supplied by an increase in the public sector deficit.
+
+Traditionally, it has been suggested that responding to such a situation through fiscal policy will suffer from the following problems:
+
+\begin{enumerate}
+\item Increased expenditure or reduced taxes require time to be put into effect
+
+\item The quality of spending will be low without adequate evaluation
+
+\item Increased spending or lower taxes are difficult to reverse
+
+\end{enumerate}
+
+\emph{(see reasons in Fiscal Policy and EMU)}
+
+In order to overcome these obstacles it would be necessary to have in place a symmetric institutional structure to be able to quickly increase and reduce transfers to the population. This could be established through a universal unconditional income transfer, whereby base income will always be transferred and temporary additional income transfers made at times of insufficient demand, while short-term interest rates have a floor equal to the inflation target. The result of such a system would be to use restrictive monetary policy to combat excess demand and expansionary fiscal policy to deal with insufficient demand.
+
+\subsubsection{Liquidity preference and loanable funds}
+\label{liquiditypreferenceandloanablefunds}
+
+Since the publication of Keynes General Theory there has been considerable debate as to the role and determination of the rate of interest. The issue has revolved around whether the interest rate is the price of liquidity or whether in some sense it is set in the market for the supply and demand for loanable funds (which is often - incorrectly - conflated with the supply and demand for savings to finance investment).
+
+The issue was broadly considered as a distraction following Hicks apparent demonstration that the two theories were formally equivalent, in that in a Walrasian general equilibrium system by Walras’ law one market was necessarily redundant, and so that if one eliminated the market for loans or bonds, the rate of interest was the price of money (as in the liquidity preference theory) while if one eliminated the money market the rate of interest becomes the price of bonds (as in the loanable funds theory). (See \textcite{Hicks36,Hicks1946} and further discussion in \textcite{Patinkin58}.)
+
+It was (reputedly) commented by Abba Lerner that if one could eliminate any market from the Walrasian system, what would happen if one eliminated the market for peanuts. Would we have a peanut theory of interest? (See \textcite{tsiang1956}). Behind this possibly apocryphal comment there is a serious issue. One cannot simply eliminate from the Walrasian system any market, if that market is either too small or has close substitutes. Indeed, most generic macroeconomic models of Walrasian general equilibrium only have a few markets (such as money, bonds, labour, goods, foreign exchange). Although theoretically a full Walrasian general equilibrium may have thousands of markets for each possible commodity, type of labour, and financial instrument, in practice it makes little sense to have equations for each market, particularly when it a close substitute for other markets.
+
+In the case of the market for money, loans and bonds, one could treat these as all relatively close substitutes which constitute a generic commodity of financial assets, which is desired in and of itself, which is required for the provision of security against hazards and destitution. This commodity (net financial assets) can only be acquired, through the difference between income and net expenditure on goods and services.
+
+In this case there is no market to eliminate and the rate of interest (or rather the vector of rates of interest in the economy) becomes the relative price to distinguish financial assets from a pure medium of exchange money.
+
+\input{mmd6-scrivcustom-footer}
+\end{document}

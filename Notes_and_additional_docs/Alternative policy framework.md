@@ -1,0 +1,14 @@
+#ideas #monetary_policy #fiscal 
+
+The previous arguments suggest an alternative institutional and policy framework might be possible. It is clear that raising interest rates sufficiently can choke off investment (not mainly through a rationally calculated rate of return calculation), but rather by increasing the risks of adverse outturns, particularly if others reduce investment levels. However, there is little theoretical or empirical support for the idea that reducing short term interest rates below the inflation target and possibly to zero or negative levels in nominal terms will have a substantial effect in stimulating physical investment (speculative financial investment is another matter). Certainly lowering rates will have little impact on consumption through the mechanism of rationally chosen time preference for consumption. It is arguable that even raising interest rates will only have an effect on consumption indirectly, by acting as a signal of greater uncertainty and risks, generating narratives of fear of unemployment and coming austerity requiring increased holdings of financial assets. In other words increasing interest rates may only raise savings by increasing fear and uncertainty.
+
+Thus if at low rates of interest there is insufficient demand and a tendency towards deflation in the economy, lowering interest rates will not have a symmetric effect with raising interest rates to reduce excess demand. In effect, it might be said that low demand at low interest rates is symptomatic of a desire by the private sector to accumulate financial assets, which can only be supplied by an increase in the public sector deficit. 
+
+Traditionally, it has been suggested that responding to such a situation through fiscal policy will suffer from the following problems:
+
+1. Increased expenditure or reduced taxes require time to be put into effect
+2. The quality of spending will be low without adequate evaluation
+3. Increased spending or lower taxes are difficult to reverse
+*(see reasons in Fiscal Policy and EMU)* 
+
+In order to overcome these obstacles it would be necessary to have in place a symmetric institutional structure to be able to quickly increase and reduce transfers to the population. This could be established through a universal unconditional income transfer, whereby base income will always be transferred and temporary additional income transfers made at times of insufficient demand, while short-term interest rates have a floor equal to the inflation target. The result of such a system would be to use restrictive monetary policy to combat excess demand and expansionary fiscal policy to deal with insufficient demand.

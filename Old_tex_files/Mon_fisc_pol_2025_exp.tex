@@ -1,0 +1,809 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+% dont number subsections
+%sets no indents use \noindent for ad hoc indentation RC
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+\usepackage{lipsum}%% dummy text package
+
+\usepackage{sectsty}% for centering section titles
+%\sectionfont{\centering}  % for centering section titles
+
+\parskip=6pt %sets space between paragraphs
+
+\usepackage{dcolumn}
+\usepackage{booktabs}%\usepackage{tabulary}
+
+\usepackage[authordate]{biblatex-chicago}
+\bibliography{biblio/biblio} 
+
+\graphicspath{{figures/}} % all figures stored in subdirectory
+\usepackage[hang,flushmargin]{footmisc}%stops indents on footnotes Must be placed after {biblatex-chicago} to work
+
+\renewcommand{\labelenumi}{(\alph{enumi})} %sets default list to (a) (b) (c)
+
+%=====================================================================
+\end_preamble
+\options A4
+\use_default_options false
+\maintain_unincluded_children no
+\language english
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement class
+\float_alignment class
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style plain
+\biblatex_bibstyle chicago-authordate
+\biblatex_citestyle chicago-authordate
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip halfline
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Relative effectiveness of monetary and fiscal policy
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[3ex]
+\end_layout
+
+\end_inset
+
+ 
+\size larger
+Implications for macroeconomic policy
+\end_layout
+
+\begin_layout Author
+Roland Clarke
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Roland Clarke is an independent researcher and may be contacted at rolandclarke97@icloud.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Date
+insert date here
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%or comment out line for today`s date
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+This abstract proposes and simulates a model which simulates...
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "introduction"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+From the late 1930's,
+ with the combination of the great depression and Keynes critique of orthodox classical economics,
+ it was broadly accepted by policy makers that fiscal policy had a central role in the management of aggregate demand.
+ This consensus began to break down in the 1960's and it is probably fair to say that for most of the last forty years monetary policy (with a few exceptions) has been accepted as the only legitimate instrument for the management of demand,
+ and thus inflation,
+ in most countries.
+\end_layout
+
+\begin_layout Standard
+Initial attempts to use monetary policy to manage demand in the late 1970s and early 1980s,
+ used a crude (and ineffective) monetarist interpretation of the link between the `money supply' and the price level,
+ as a means to controlling inflation.
+ Early attempts at monetary base control showed that the link between monetary aggregates and inflation was tenuous and unpredictable.
+ However,
+ the experience did demonstrate that sufficiently high interest rates could depress economic activity sufficiently to eventually eliminate inflation (particularly when combined with institutional changes to weaken workers bargaining power),
+ although at the cost of high unemployment and lost output.
+\end_layout
+
+\begin_layout Standard
+This led to the development of a consensus from the late 1980's that the only appropriate instrument to regulate demand was monetary policy (focussed particularly on the use of short term interest rates to influence the entire yield curve through expectations),
+ while fiscal policy was relegated to service delivery and maintaining a `sustainable' debt burden.
+ By the 1990's,
+ in many countries,
+ this became formalised in the form of inflation targeting regimes,
+ managed by independent Central Banks.
+ This historical evolution is described in detail in the UK Treasury's semi-official account of macroeconomic policy making 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "balls2002"
+literal "false"
+
+\end_inset
+
+,
+ and in the US by Ben Bernanke's analysis of monetary policy (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "bernanke2022"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+This article looks at both the technical and political economy aspects of fiscal and monetary policy to understand how and why this transformation took place.
+ It is argued that the use of monetary policy as the principal instrument to control inflation,
+ is technically flawed while the experience of monetary policy over the past 30 or so years shows how the political economy issues that led to the decline of fiscal policy as the main instrument of demand management can now be overcome,
+ so as to achieve effective macroeconomic management,
+ consistent with a dynamic and fair economy.
+\end_layout
+
+\begin_layout Section
+The rise and fall of fiscal policy
+\end_layout
+
+\begin_layout Subsection
+The origins of fiscal demand management
+\end_layout
+
+\begin_layout Standard
+Fiscal management of demand can said to have begun (in a piecemeal fashion) with Roosevelt's New Deal in the US which supported programs of public works to alleviate unemployment in the Great Depression.
+ It was given a theoretical basis with the publication of Keynes' 
+\begin_inset Quotes eld
+\end_inset
+
+General Theory of Employment,
+ Interest and Money
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Keynes36"
+literal "false"
+
+\end_inset
+
+,
+ which together with the practical experience of the wartime management of the US and UK economies in the 1940's,
+ formed the basis for post-war macroeconomic management from 1945 to the mid 1970's.
+\end_layout
+
+\begin_layout Standard
+The effectiveness of fiscal policy (and wartime spending) in creating full employment led to the consensus that full employment should be one of the central objectives of economic policy in the vast majority of market economies.
+ There were also instruments and models including the crude IS-LM framework,
+ which (falsely) claimed to be a formal version of Keynes theoretical work,
+ together with the apparently strong empirical inverse relationship between unemployment and inflation formalised as the Phillips Curve 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "phillips1958"
+literal "false"
+
+\end_inset
+
+.
+ These instruments and models created the belief amongst macroeconomic policy makers that maintaining full employment was possible,
+ and a relatively simple technical matter of fine-tuning fiscal policy to boost demand if unemployment were to rise and to reduce demand when inflation rose.
+\end_layout
+
+\begin_layout Standard
+Although fiscal policy was the dominant instrument of macroeconomic management in the post-war period,
+ it was supplemented by monetary policy,
+ often in the form of direct controls on bank lending,
+ or the conditions of consumer credit.
+ In the period of fixed exchange rates until 1973,
+ the interest rate was used more for managing foreign exchange flows,
+ to maintain the fixed exchange rate,
+ than to directly control inflation.
+\end_layout
+
+\begin_layout Subsection
+Results of post-war fiscal management
+\end_layout
+
+\begin_layout Standard
+From 1945 until about 1970 macroeconomic management in OECD countries appeared to have achieved full employment with steady growth and low (but gradually increasing) inflation.
+ During this period average inflation in the US,
+ the UK,
+ France and Japan was xx,
+ yy,
+ zz,
+ ww,
+ respectively while unemployment rates were of the order of 3% - 4%.
+ There is little doubt that this period was probably the most successful in terms of crisis-free,
+ sustained positive macroeconomic results for most western industrialised countries that had ever been observed.
+\end_layout
+
+\begin_layout Standard
+Strains in the system were however manifesting themselves.
+ The policy focus was on maintaining full employment,
+ but the Phillips curve trade-off which had been previous identified between the rate of unemployment and the level of inflation appeared to be breaking down,
+ so that from the mid 1960's inflation levels associated with a given level of unemployed resources was gradually rising.
+\end_layout
+
+\begin_layout Standard
+Moreover,
+ the world financial system was effectively on a US dollar standard,
+ with US dollars being the principal reserve currency for all other countries.
+ Expansionary fiscal policy in the US,
+ designed both to generated full employment and finance the Vietnam war,
+ meant that there was effectively a surplus of dollars in the rest of the world.
+ The anchor of the Bretton Woods world financial system was the dollar which had a value fixed,
+ and was freely convertible to gold,
+ held in reserve by the US Treasury.
+ Differing fiscal policies and inflation rates among the large industrial economies,
+ meant that disequilibria were transmitted into the balance of payments,
+ with deficit countries under pressure to tighten policy in order to correct the external disequilibrium.
+\end_layout
+
+\begin_layout Standard
+This pressure,
+ however,
+ did not apply to the US.
+ Its balance of payments deficit (dollar surplus) simply translated into increases in dollar reserves held by other countries.
+ This came to be known as the `exorbitant privilege' of the US.
+ The system could only be stable as long as the link between the dollar and gold was credible.
+ From the mid sixties this credibility began to be tested by Central Banks,
+ particularly in Europe,
+ which began increasing,
+ their holdings of gold,
+ by exchanging dollars for gold.
+ As US gold reserves diminished,
+ it was clear that something would have to give.
+ In the end the US simply suspended the convertibility of dollars to gold,
+ thus effectively ending the Bretton Woods system and ushering in the system of floating exchange rates.
+\end_layout
+
+\begin_layout Subsection
+Acceleration of inflation in the 1970s
+\end_layout
+
+\begin_layout Standard
+The collapse of the Bretton Woods system in 1971 was followed very quickly by a sharp increase in world commodity prices (particularly oil which quadrupled in price in 1973 and further tripled in price from 1979 to 1981).
+ These price increases came on top of an inflation rate which had gradually increased in the previous decades.
+ The result was that inflation increased rapidly,
+ peaking in 1974 or 1975 in most countries as the external supply shock fed into domestic inflation.
+ Policy responses were varied and often incoherent.
+ In the UK for example,
+ in 1973 fiscal policy became more expansionary,
+ while subsequent inflation was dealt with by an (ineffective) wage control policy which quickly broke down.
+ In the US the break with Bretton Woods was also combined with the announcement of a wage and price freeze.
+ In most cases direct controls on wages and prices proved to be at best temporary palliatives.
+\end_layout
+
+\begin_layout Section
+The technical strengths and weaknesses of fiscal policy
+\end_layout
+
+\begin_layout Subsection
+The difficult political economy of fiscal policy
+\end_layout
+
+\begin_layout Standard
+While fiscal policy could potentially be very effective for the management of aggregate demand from a technical perspective,
+ the political economy of fiscal management proved to be too complex,
+ in the sense that increases in expenditure (or reductions in taxation) to stimulate growth or offset an increase in unemployment were politically very difficult to reverse once the economy began to overheat.
+ Thus,
+ in practice,
+ building in a bias towards expansionary fiscal policy which would only be confronted once a crisis was generated through accelerating inflation and/or a balance of payments collapse.
+\end_layout
+
+\begin_layout Section
+The rise and fall of monetary policy
+\end_layout
+
+\begin_layout Subsection
+Theoretical and historical origins of monetarism
+\end_layout
+
+\begin_layout Standard
+Behind the rise of monetary policy as the dominant macroeconomic policy instrument was the fundamental notion that relative prices were determined only by `real factors' (technology and preferences) from the solution of innumerable optimisation problems by individual agents resulting in a vector of `objective' equilibrium prices,
+ while the price level was determined by the `money supply' (the `Classical dichotomy').
+ Although never demonstrated empirically,
+ the `Classical Dichotomy' became as central to macroeconomic thought as it had been in the 19th and early 20th centuries,
+ and indeed has been highly influential in theoretical and policy discussions up to the present.
+\end_layout
+
+\begin_layout Standard
+This view relies upon the idea that `money' as a means of exchange can be clearly distinguished from other financial assets which constitue a store of future purchasing power.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+It is the existence of this wide range of financial assets which often led to endless and ultimately futile debates on the correct definition of `money' for the purposes of controlling the money supply and thus inflation.
+\end_layout
+
+\end_inset
+
+ The idea that `money' (as opposed to other financial assets) has no utility in itself and is simply held for transactions purposes is the central assumption of the reformulation of the doctrine of monetarism by Milton Friedman in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "friedman1956,friedman1969"
+literal "false"
+
+\end_inset
+
+ (both reprinted in 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Friedman06"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Although the idea that the money supply (however defined) is a principal determinant of the price level dates back at least to the eighteenth century,
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+See,
+ for example,
+ the work of David Hume
+\end_layout
+
+\end_inset
+
+ it was articulated in its modern form in the 1950s by Milton Friedman.
+ Friedman argued strongly that excessive growth of the money supply was the only cause of inflation,
+ and that in policy terms the only solution to excessive price growth was to restrain the growth of the `the money supply'.
+ In the 1950's and most of the 1960's monetarism was treated as a fringe doctrine which could not challenge the prevailing dominance of fiscal policy and the Keynesian orthodoxy of the time.
+ However,
+ by the end of the 1960's,
+ it began to gain in credibility in academic circles,
+ as it became clear that fiscal policy was apparently unable to stabilise the economy and ensure full employment with low inflation.
+\end_layout
+
+\begin_layout Standard
+During the 1970's monetarism gradually became the orthodoxy for macroeconomic policy making,
+ almost by default,
+ as the combination of rising inflation with economic stagnation and rising unemployment appeared to be intractable using the traditional instruments of fiscal policy,
+ sometimes combined with wage and price controls.
+\end_layout
+
+\begin_layout Standard
+Monetarism appeared to both provide a shortcut to the control of inflation,
+ as well as an ideological framework for a reduction of state intervention in the economy.
+ It began to be adopted in a soft form in the UK following the balance crisis of 1976 and in a much more ideologically pure fashion with election of Margaret Thatcher as Prime Minister in 1979 (see 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "lankester2024"
+literal "false"
+
+\end_inset
+
+ for a detailed account of the UK experience).
+ In the US monetarism as a policy doctrine came to the fore with the appointment of Paul Volker as Chairman of the Federal Reserve in 1979 (see 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "bernanke2022"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Monetarism in practice
+\end_layout
+
+\begin_layout Standard
+With its ascendancy in the UK and the US quickly began to dominate economic policy making and theorizing in most OECD countries and,
+ through its diffusion through multilateral financial institutions,
+ and their regional equivalents,
+ to much of the developing world.
+ The appeal of monetarism was not simply the apparent simplicity of its policy recommendations (controlling the money supply in order to control inflation),
+ but also that it provided a theoretical basis for concepts such as the `Natural Rate of Unemployment'
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Friedman68"
+literal "false"
+
+\end_inset
+
+ (or as it was later called,
+ the `Non-Accelerating Inflation Rate of Unemployment').
+ This concept provided a rationale for arguing that the government had no role in trying to regulate the level of unemployment,
+ since it would automatically move to its natural rate which Friedman argued would be the level:
+\end_layout
+
+\begin_layout Quote
+\begin_inset Quotes eld
+\end_inset
+
+ground out by the Walrasian system of general equilibrium equations,
+ provided there is embedded in them the actual structural characteristics of the labor and commodity markets,
+ including market imperfections,
+ stochastic variability in demands and supplies,
+ the cost of gathering information about job vacancies and labor availabilities,
+ the costs of mobility,
+ and so on.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Friedman68"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this definition it is made clear that unemployment will be determined by the interaction of preferences and technology,
+ and that if it is higher than is desired the only solutions can be microeconomic interventions to help the market to work better,
+ but that there is no macroeconomic policy which can lower the rate of unemployment.
+\end_layout
+
+\begin_layout Subsection
+How does monetary policy work?
+\end_layout
+
+\begin_layout Standard
+Monetary policy (largely through interest rate movements) may have affects on private consumption and investment decisions.
+ However,
+ once one removes the axiom of the maximisation of intertemporal utility as the dominant motivation for consumers,
+ the scope for interest rates to affect private consumption decisions is considerably diminished.
+ This is consistent with the empirical literature [cite sources] on the relatively low elasticity of consumption to interest rates.
+\end_layout
+
+\begin_layout Standard
+Whether interest rates will affect private consumption significantly will depend very much on the institutional framework for consumption.
+ In an economy in which a large part of the population buys houses on mortgages (particularly variable rate mortgages),
+ there is no doubt that interest rates will affect income and consumption,
+ both through the purchase of new housing (which also drives a significant part of the consumer durable market) and through the 
+\emph on
+income and wealth
+\emph default
+ effects on existing borrowers,
+ where a rise in the interest rate will act as a tax on the borrower’s income and (over time) reduce the perceived value of assets (such as property).
+ However,
+ those parts of the population who are credit constrained (particularly the “poor”,
+ as described above) or holders of financial assets (largely the “rich” from above) will,
+ in the former case,
+ be insensitive to interest rate changes,
+ and in the latter,
+ have a positive income effect for a rise in the interest rate.
+ Thus the social and institutional structure will determine if there is any sensitivity of consumption to interest rate movements.
+\end_layout
+
+\begin_layout Standard
+The relationship of physical investment to interest rates is also unlikely to be a smooth monotonic function.
+ In the paradigm of the macroeconomic textbooks entrepreneurs have the choice of investing in numerous projects with a well defined rate of return (possibly with a well defined variance around the expected rate of return).
+ If the expected rate of return exceeds the interest rate (and the entrepreneur can secure the necessary capital - from borrowing,
+ equity or own resources) the investment is likely to take place.
+\end_layout
+
+\begin_layout Standard
+Hence,
+ in this approach a fall in the (real) rate of interest will tend to raise the volume of investment,
+ while a rise will diminish the volume of investment.
+ There is little doubt that very high real rates of interest are effective in curtailing investment,
+ and indeed severe monetary contractions can very quickly reduce investment levels,
+ by raising enormously the risk of investment,
+ in a moment when demand for final output is likely to fall.
+ While the comparison of the relative returns on financial assets and physical investment may have some effect,
+ there is little doubt that the principal effect of raising interest rates is to reduce the expected return of investment,
+ through expected falls in aggregate demand.
+ As discussed previously,
+ the likelihood of a very high variance of the rate of return on investment (particularly in countries with weak institutional structures),
+ is also likely to reduce the elasticity of investment to the rate of interest.
+\end_layout
+
+\begin_layout Standard
+Low rates of interest,
+ however,
+ may not have symmetric effects.
+ While they may reduce slightly the costs of investment,
+ they will not increase expected returns by as much as high rates depress expected returns.
+ The experience of ultra-low interest rates since 2008 is perhaps the clearest illustration of this point.
+ There has not been an extraordinary investment boom by historical standards.
+ Nor have zero real or nominal rates suddenly made previously unviable investments viable,
+ precisely because of the uncertainty over returns.
+ What low interest rates 
+\emph on
+have
+\emph default
+ done is to raise asset prices,
+ (property,
+ shares,
+ cryptocurrency,
+ etc.),
+ often purchased using cheap credit to leverage returns,
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+This is the essence of Minsky’s Financial Instability Hypothesis,
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite{Minsky77,Minsky86}
+\end_layout
+
+\end_inset
+
+ which argues that financial crises are not aberrations or due to policy errors,
+ but rather inherent characteristics of capitalist economies with financial markets.
+\end_layout
+
+\end_inset
+
+ as wealth holders look for alternative (and often more risky) assets to produce a return,
+ as discussed previously.
+ Over time the rise in asset prices may also contribute to raising consumption through wealth effects,
+ at the expense of increasing the risks of reversing monetary policy,
+ as evidenced by the economic crises of 2008 and 2022.
+\end_layout
+
+\begin_layout Standard
+All these considerations suggest that private expenditure on consumption and investment may be affected by monetary policy in an uncertain and unpredictable manner.
+ The effects of monetary policy will depend upon changing views about the future,
+ of both consumers and investors.
+ They are unlikely to be linear or even monotonic.
+ In these circumstances,
+ while it may be possible to identify at a specific moment in time an interest rate which will be consistent with full employment of resources at a low inflation rate,
+ there will be nothing natural or stable about this interest rate,
+ and indeed,
+ in many circumstances it may not exist.
+ There is no reason that a natural interest rate should exist once we dispense with the idea that interest rates in some sense reflect a trade-off between present and future consumption for consumers engaged in an exercise of intertemporal utility maximisation,
+ or that it is related to the real (unknowable) return to physical capital.
+\end_layout
+
+\begin_layout Section
+A taxonomy of inflation - a return to first principles
+\end_layout
+
+\begin_layout Standard
+In the previous discussions of the the different approaches of macroeconomic policy for economic stabilisation there were implicitly various potentially contradictory explanations for inflation.
+ The monetarist explanation implies that it is a purely monetary phenomenon,
+ whereas cost push explanations (or supply shocks) might indicate that the roots of inflation are in the structure of the economy (particularly in the Latin American structural tradition,
+ which places emphasis on the importance of social and economic structures,
+ and the existence of bottlenecks in key sectors
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Need some references here.xxxx
+\end_layout
+
+\end_inset
+
+).
+ There are also arguments suggesting that inflation is largely a fiscal phenomenon (although such arguments implicitly have a monetary component as well).
+\end_layout
+
+\begin_layout Section
+A theory of inflation
+\end_layout
+
+\begin_layout Standard
+Rather than viewing inflation as a monetary phenomenon it is more useful to view it as a conflict over the allocation of resources.
+ In this view there will be a number of competing factors which determine the levels of inflationary pressure in the economy.
+ On the one hand increasing productivity and labour force participation will decrease inflationary pressures (by making more resources available for distribution),
+ while a deterioration (improvement) in the terms of trade will increase (decrease) inflationary pressures.
+ Similarly,
+ devaluation (revaluation) of the real exchange rate will increase (decrease) inflationary pressures.
+ The importance of the terms of trade and real exchange rate will depend on the openness of the economy as measured by the proportion of imports in GDP.
+ Finally,
+ in determining the volume of resources available for allocation,
+ it is necessary to take account of resources really available for distribution.
+ Thus it is proposed that the relevant measure of GDP for measuring resources available should be civilian GDP (or GDP excluding defence expenditures).
+\end_layout
+
+\begin_layout Standard
+The measure of inflationary pressure can thus be formulated as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Ip=\frac{GDP_{nd}}{pop}*TOT^{imp}*RER^{imp}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $Ip$
+\end_inset
+
+ is the index of inflationary pressure,
+ 
+\begin_inset Formula $GDP_{nd}$
+\end_inset
+
+ is non-defence GDP,
+ 
+\begin_inset Formula $pop$
+\end_inset
+
+ is population,
+ 
+\begin_inset Formula $TOT$
+\end_inset
+
+ is the terms of trade (expressed as 
+\begin_inset Formula $\frac{p_{i}}{p_{e}}$
+\end_inset
+
+) where 
+\begin_inset Formula $p_{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $p_{e}$
+\end_inset
+
+ are prices of imports and exports respectively,
+ and finally 
+\begin_inset Formula $imp$
+\end_inset
+
+ is the proportion on imports in GDP.
+ This measure of inflationary pressure should be understood as an index relative to the initial year.
+ The first term,
+ 
+\begin_inset Formula $\frac{GDP_{nd}}{pop}$
+\end_inset
+
+,
+ includes the effects of productivity (GDP increasing relative to the working population),
+ workforce participation (GDP increasing relative to total population) and the effects of dependency ratios (changes of working age population relative to total population).
+ xxa asdfsdf
+\end_layout
+
+\begin_layout Section
+Summary and conclusions
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "summaryandconclusions"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "biblio/biblio"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,81 @@
+                Chapter 1
+                Introduction
+                1.1     Main objectives
+                This book re-examines the basis of current macro-economic policy making and attempts to establish
+                                                                                                   1
+                new micro-foundations bringing together some elements of the work of Keynes and a behavioural
+                approach to economic theory and policy. When we discuss the work of Keynes we are not refer-
+                ring simply to the idea of ﬁscal policy for demand management, as Keynesian theory came to be
+                characterised in the post-war period. Rather we focus on the central insights of his work in The
+                General Theory of Employment, Interest and Money (Keynes 1936) as well as the follow up articles
+                to the General Theory, ‘The General Theory of Employment’, ‘The “ex-ante” Theory of the Rate
+                of Interest’, ‘Alternative Theories of the Rate of Interest’ Keynes (1937a, 1937b, 1937c) and, most
+                importantly, How to Pay for the War Keynes (1940). The central insights of Keynes were that:
+                  (a) There is no automatic adjustment mechanism in a market economy ensuring that it will return
+                      quickly to a full employment equilibrium (even if all prices and wages are fully ﬂexible).
+                  (b) Consumption and investment decisions are often made under conditions of pure uncertainty,
+                      where there is no rational basis for the decision and therefore may be the result of hopes, fears
+                      and imagined futures which have no basis in objective reality.
+                  (c) Savings and investment are equilibrated by changes in investment, not interest rates.
+                  (d) Long term interest rates are determined by the desire for liquidity and expectations about the
+                      future.
+                These insights have largely been lost from contemporary macroeconomic theory and policy, for
+                reasons which will be discussed in future chapters. These insights are also very compatible with
+                behavioural economics, and particularly the strand of behavioural economics referred to by Earl
+                (2022) and Sent (2004) as the ‘Old Behavioural Economics’. Old Behavioural Economics is derived
+                from the work of Simon (1955, 1956, 1979, 1991, 1996) and also includes the work on the theory of
+                the ﬁrm such as Hall and Hitch (1939), Cyert and March (1963) and Richardson (1953, 1959, 1960).
+                Simon recognised that the central axiom of economic theory (and policy), that decisions made by
+                people and ﬁrms to rationally maximise utility or proﬁts was an impossibility. It was impossible
+                1It should be emphasised that the focus of this work is neither to discuss ‘what Keynes really meant’, nor to suggest that
+                 the work of Keynes is without error. There are however, a number of central, and almost self-evident, propositions in
+                 his work which have not been incorporated into the body of modern macroeconomic theory, because they undermine
+                 either the axioms or the overall vision of modern macroeconomic theory.
+                                                                   1
+               CHAPTER1. INTRODUCTION                                                                     2
+               bothbecause the information required does not, and often could not possibly exist, and furthermore
+               even if the information were to exist, humans do not have the cognitive capacity to process it all and
+               (as orthodox economic theory assumes) examine all possible alternatives before taking a decision.
+               He also developed an alternative decision theory, rooted in empirical work in psychology.
+               Among the most important consequences of his work was the idea that consumers could not be
+               maximising intertemporal utility, using interest rates to discount future costs and beneﬁts. Indeed,
+               as will be seen in later chapters, there is a wealth of empirical evidence suggesting that individuals
+               do not, and cannot apply consistent discount factors to the future and take decisions maximising
+               intertemporal utility. In practice this means that the choice of what goods and services to consume,
+               and how much to consume and to save, will be dominated by a few rules which produce satisfactory
+               (but not optimal) outcomes. Simon referred to such decision rules as procedural rationality, as
+               opposedtothesubstantive rationality of orthodox economics. It will beseen that the way individuals
+               develop such rules means that their decisions may be very diﬀerent those that would have resulted
+               from intertemporal utility maximisation.
+               Cyert and March, Richardson and others applied these insights to the theory of the ﬁrm, and again
+               demonstrated that ﬁrms cannot simply maximise proﬁts because the information and knowledge
+               required simply do not exist. The ﬁrms have to use policies and procedures which produce sat-
+               isfactory results. It is impossible to know whether these would have been optimal. This applies
+               particularly when developing new products or opening new markets. Demand curves and marginal
+               costs are unknown in such cases, and will change with as the product enters a new market. New
+               investment is inevitably a question of taking a decision under extreme uncertainty and with very
+               little reliable knowledge. As Keynes (1936) says:
+                    “The outstanding fact is the extreme precariousness of the basis of knowledge on which
+                    our estimates of prospective yield have to be made.  Our knowledge of the factors
+                    which will govern the yield of an investment some years hence is usually very slight
+                    and often negligible. If we speak frankly, we have to admit that our basis of knowledge
+                    for estimating the yield ten years hence of a railway, a copper mine, a textile factory,
+                    the goodwill of a patent medicine, an Atlantic liner, a building in the City of London
+                    amounts to little and sometimes to nothing; or even ﬁve years hence.”
+               In the modern context we could just as well argue that we have little or no idea about the changes to
+               the economy and society of the widespread adoption of Artiﬁcial Intelligence, how electric battery
+               technology will evolve, whether USA will have become an inward looking authoritarian regime
+               isolated from the rest of the world, or whether there will be further major wars over the next
+               ten years. All of these will have enormous impacts on the return of investments, and we have no
+               knowledge of the probabilities of these events nor of their impact on economy and society. One of
+               the central themes of this book is that the returns to investment in physical capital are extremely
+               uncertain, and so the model in which entrepreneurs compare ‘the interest rate’ to the returns to
+               investment to determine whether it is viable, may be of limited use in explaining levels of investment.
+               This article looks at both the technical and political economy aspects of ﬁscal and monetary policy
+               to understand how and why this transformation took place. It is argued that the use of monetary
+               policy as the principal instrument to control inﬂation, is technically ﬂawed while the experience of
+               monetary policy over the past 30 or so years shows how the political economy issues that led to the
+               decline of ﬁscal policy as the main instrument of demand management can now be overcome, so as
+               to achieve eﬀective macroeconomic management, consistent with a dynamic and fair economy.
+           CHAPTER1. INTRODUCTION                                              3
+           1.2  Methodology

@@ -1,0 +1,25 @@
+# Ignore LyX backup and autosave files
+# http://www.lyx.org/
+*.lyx~
+*.lyx
+*.lyx#
+
+# General files to ignore
+.DS_Store
+*.pdf
+*.odt
+*.docx
+*.aux
+*.bbl
+*.blg
+*.log
+*.xml
+*.gz
+*.bcf
+
+
+
+# Directories to ignore
+biblio/*
+!biblio/biblio.bib
+
