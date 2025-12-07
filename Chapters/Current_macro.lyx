@@ -1,0 +1,442 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass book
+\begin_preamble
+% dont number subsections
+%sets no indents use \noindent for ad hoc indentation RC
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+\usepackage{lipsum}%% dummy text package
+
+\usepackage{sectsty}% for centering section titles
+%\sectionfont{\centering}  % for centering section titles
+
+\parskip=6pt %sets space between paragraphs
+
+\usepackage{dcolumn}
+\usepackage{booktabs}%\usepackage{tabulary}
+
+\usepackage[authordate]{biblatex-chicago}
+\bibliography{biblio/biblio} 
+
+\graphicspath{{figures/}} % all figures stored in subdirectory
+\usepackage[hang,flushmargin]{footmisc}%stops indents on footnotes Must be placed after {biblatex-chicago} to work
+
+\renewcommand{\labelenumi}{(\alph{enumi})} %sets default list to (a) (b) (c)
+
+%=====================================================================
+\end_preamble
+\options A4
+\use_default_options false
+\maintain_unincluded_children no
+\language british
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command default
+\index_command default
+\float_placement class
+\float_alignment class
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style plain
+\biblatex_bibstyle chicago-authordate
+\biblatex_citestyle chicago-authordate
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\branch Hidden_notes
+\selected 0
+\filename_suffix 0
+\color background background
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip halfline
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style british
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+The theory and narrative of current macroeconomic policy
+\end_layout
+
+\begin_layout Section
+Optimising consumers and the Euler equation
+\end_layout
+
+\begin_layout Standard
+Most models of consumption and savings are based upon the life cycle hypothesis originally developed by Franco Modigliani and collaborators (see for example 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "modigliani1954,modigliani1966,modigliani1986"
+literal "false"
+
+\end_inset
+
+).
+ While the life cycle hypothesis,
+ and the related permanent income hypothesis,
+ of 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Friedman57"
+literal "false"
+
+\end_inset
+
+represented considerable advances on previous naïve theories of consumption and saving,
+ and apparently generated insights into questions such as why savings rates are no higher in rich countries than poor and also why savings will increase
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Although this finding is widely cited and is technically true,
+ it will be shown in a later section of this paper that growth (due to technical progress or of population) cannot account for observed savings rates in Modigliani style life–cycle models.
+\end_layout
+
+\end_inset
+
+ in a growing economy (see 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "deaton2005"
+literal "false"
+
+\end_inset
+
+ for an excellent review),
+ it is explicitly anchored in the paradigm of a typical typical rational consumer maximising expected utility over their lifetime.
+ This model,
+ indeed,
+ continues to dominate economic theorising (because it is mathematically tractable and taps into deep seated popular narratives regarding interest rates,
+ saving and investment
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The argument is that the analysis of the relationships between savings,
+ investment and interest rate has been distorted by what 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+parencite{Shiller19,Shiller21}
+\end_layout
+
+\end_inset
+
+ would term as ‘narratives’.
+ These are powerful stories which subtly influence theoretical and empirical approaches to the relationship between these key macroeconomic variables.
+ The key stories are i) that interest is the reward for waiting,
+ or for deferring consumption;
+ ii) savings are required for investment and therefore at a macroeconomic level a lack of savings can be constraint to growth and development;
+ iii) the long–run real interest rate is determined by the balance between desired 
+\emph on
+ex–ante
+\emph default
+ saving and desired (
+\emph on
+ex–ante
+\emph default
+) investment.
+\end_layout
+
+\end_inset
+
+),
+ despite the fact that it is well established that the optimisation problems required to be solved by consumers are both impossible (in behavioural terms) and far from observed reality (see 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "thaler1994,thaler2016"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Most theories of consumption which form the micrcofoundations of macroeconomics start with the idea of the distribution of consumption through time being an inter-temporal optimisation problem for a ‘representative’ household which maximises utility based upon expected income and subjective trade-offs between present and future consumption (for example 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Deaton92,romer2018,walsh2017,gali2015"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+The models of consumption in orthodox theories characterise consumption decisions as intertemporal allocation decisions in which consumers maximise their utility,
+ which is a function of consumption in every time period.
+\end_layout
+
+\begin_layout Standard
+The fundamental argument here is that the canonical optimisation problem for consumers is not the one described in most textbooks,
+ in which a consumer maximises utility subject to a budget constraint,
+ and from which can be derived the narrative of consumption being inversely related to interest rates as summarised below:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\max{}\quad u=\sum\limits_{1}^{T}\upsilon_{t}(c_{t})\quad\textrm{(intertemporal utility)}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\textrm{subject to}\quad\sum\limits_{1}^{T}\frac{c_{t}}{(1+r)^{t}}=A_{1}+\sum\limits_{1}^{T}\frac{y_{t}}{(1+r)^{t}}\quad\textrm{(budget constraint)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Rather,
+ the problem faced by individuals is how to minimise the probability that in any time period initial assets plus income will be insufficient (or unavailable) to maintain a socially determined minimum level of consumption.
+ Conceptually,
+ this could be characterised as individuals or households attempting to hold reserves of assets in order to maintain a minimum level of consumption in the event of income shocks (such as unemployment) or expenditure shocks (such as health or social care expenditures),
+ as well as accumulating reserves to cover retirement,
+ and or inability to work due to disability,
+ sufficient to cover probable life expectancy.
+\end_layout
+
+\begin_layout Standard
+This suggests the need to move from a framework of rational optimisation by homogeneous households (which is recognised to be both psychologically and computationally impossible) to a more realistic approach in which consumption and saving levels are socially determined and in which the psychological objectives of households (the avoidance of loss and destitution and the pursuit of power,
+ for both of which there is empirical evidence) are realistic.
+\end_layout
+
+\begin_layout Standard
+While there have been many critiques of the “rational” optimisation model of consumer behaviour,
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Among the earliest was the work of 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite{Simon55}
+\end_layout
+
+\end_inset
+
+,
+ which has very gradually led to the development of a considerable empirical literature,
+ anchored in psychological science which suggests that the rational optimisation model is inconsistent with the computational abilities of the human mind,
+ and with the actual way in which people take decisions (see for example 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite{tversky1991,akerlof2002,tversky1974,kahneman1979,kahneman1990,kahneman2003,kahneman2011,thaler1994,thaler2016,thaler2018,}
+\end_layout
+
+\end_inset
+
+).
+\end_layout
+
+\end_inset
+
+ this has tended to dominate orthodox discourse because of its mathematical tractability,
+ even though it has relatively weak empirical support.
+\end_layout
+
+\begin_layout Standard
+Theoretical and empirical work such as 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite{Deaton90,Deaton89}
+\end_layout
+
+\end_inset
+
+,
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite{carroll2021,Carroll97,carroll1991}
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite{Winter12}
+\end_layout
+
+\end_inset
+
+ have shown that rational consumer behaviour can be better explained through rules of thumb involving the use of buffer-stocks over relatively short periods (a few years) to cover unforeseen contingencies (particularly unemployment and health emergencies),
+ while making some (often inadequate) provision for later years of life when little or no income will be available.
+ This paper proposes an approach in which reasonable assumptions on individual consumption choices based upon modern behavioural theories,
+ as opposed to unrealistic optimisation,
+ are used to construct a plausible model of macroeconomic variables consistent with observed behaviour,
+ broad consistent with the overall life-cycle hypothesis,
+ but removing the assumption of optimisation at the centre of the hypothesis.
+\end_layout
+
+\begin_layout Standard
+In this framework,
+ those households which are able to,
+ save essentially in order to avoid losses or destitution,
+ including to provide resources for retirement.
+ What this means in practice is that the principal motives for saving are the precautionary motive,
+ whereby savings are needed to cushion unexpected falls in income (through unemployment for example),
+ or unexpected expenditures on accidents and emergencies (particularly for health).
+ It is explicitly recognised that individuals and households have little knowledge of the likely pattern of income over their lifetimes,
+ and although they recognise that saving is necessary as a precautionary measure and eventually for retirement,
+ there is little understanding of how much saving will be required over a life time.
+ It is also recognised that in all economies a substantial proportion of the population will be unable to save enough to provide for short term emergencies
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Even in the US,
+ the richest country in the world,
+ in 2021,
+ 40 percent of households did not have money set aside for emergencies and would need to borrow,
+ sell assets or draw on other savings to confront a loss of income from employment.
+ 32 percent of households had less than $400 for emergency expenses,
+ while 24 percent had difficultly paying normal monthly bills 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+parencite{federalreservesystem2022}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+or for retirement.
+\end_layout
+
+\begin_layout Section
+Determination of relative prices and wages through given preferences and technology
+\end_layout
+
+\begin_layout Section
+The triumph of monetarism
+\end_layout
+
+\begin_layout Section
+The natural rate of unemployment
+\end_layout
+
+\begin_layout Section
+The ‘equilibrium’ rate of interest
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,1468 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass book
+\begin_preamble
+% dont number subsections
+%sets no indents use \noindent for ad hoc indentation RC
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+\usepackage{lipsum}%% dummy text package
+
+\usepackage{sectsty}% for centering section titles
+%\sectionfont{\centering}  % for centering section titles
+
+\parskip=6pt %sets space between paragraphs
+
+\usepackage{dcolumn}
+\usepackage{booktabs}%\usepackage{tabulary}
+
+\usepackage[authordate]{biblatex-chicago}
+\bibliography{biblio/biblio} 
+
+\graphicspath{{figures/}} % all figures stored in subdirectory
+\usepackage[hang,flushmargin]{footmisc}%stops indents on footnotes Must be placed after {biblatex-chicago} to work
+
+\renewcommand{\labelenumi}{(\alph{enumi})} %sets default list to (a) (b) (c)
+
+%=====================================================================
+\end_preamble
+\options A4
+\use_default_options false
+\maintain_unincluded_children no
+\language british
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command default
+\index_command default
+\float_placement class
+\float_alignment class
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style plain
+\biblatex_bibstyle chicago-authordate
+\biblatex_citestyle chicago-authordate
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\branch Hidden_notes
+\selected 0
+\filename_suffix 0
+\color background background
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip halfline
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style british
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Alternative theories of the role of the rate of interest
+\end_layout
+
+\begin_layout Standard
+It will be clear from the above arguments that there is little role for the rate of interest to perform an to equilibrate savings and investment in the economy.
+ Indeed,
+ as discussed previously,
+ the idea that an increase in the rate of interest could increase savings and therefore investment and growth is both logically and empirically unfounded.
+\end_layout
+
+\begin_layout Standard
+There is a wealth of empirical evidence suggesting that saving is insensitive to changes in interest rates.
+ Monetary policy (largely through interest rate movements) may have affects on private consumption and investment decisions.
+ However,
+ once one removes the axiom of the maximisation of intertemporal utility as the dominant motivation for consumers,
+ the scope for interest rates to affect private consumption decisions is considerably diminished.
+ This is consistent with the empirical literature [cite sources] on the relatively low elasticity of consumption to interest rates.
+\end_layout
+
+\begin_layout Standard
+Whether interest rates will affect private consumption significantly will depend very much on the institutional framework for consumption.
+ In an economy in which a large part of the population buys houses on mortgages (particularly variable rate mortgages),
+ there is no doubt that interest rates will affect income and consumption,
+ both through the purchase of new housing (which also drives a significant part of the consumer durable market) and through the 
+\emph on
+income and wealth
+\emph default
+ effects on existing borrowers,
+ where a rise in the interest rate will act as a tax on the borrower’s income and (over time) reduce the perceived value of assets (such as property).
+ However,
+ those parts of the population who are credit constrained or holders of financial assets will,
+ in the former case,
+ be insensitive to interest rate changes,
+ and in the latter,
+ have a positive income effect for a rise in the interest rate.
+ Thus the social and institutional structure will determine if there is any sensitivity of consumption to interest rate movements.
+\end_layout
+
+\begin_layout Standard
+The relationship of physical investment to interest rates is also unlikely to be a smooth monotonic function.
+ In the paradigm of the macroeconomic textbooks entrepreneurs have the choice of investing in numerous projects with a well defined rate of return (possibly with a well defined variance around the expected rate of return).
+ If the expected rate of return exceeds the interest rate (and the entrepreneur can secure the necessary capital - from borrowing,
+ equity or own resources) the investment is likely to take place.
+\end_layout
+
+\begin_layout Standard
+Hence,
+ in this approach a fall in the (real) rate of interest will tend to raise the volume of investment,
+ while a rise will diminish the volume of investment.
+ There is little doubt that very high real rates of interest are effective in curtailing investment,
+ and indeed severe monetary contractions can very quickly reduce investment levels,
+ by raising enormously the risk of investment,
+ in a moment when demand for final output is likely to fall.
+ While the comparison of the relative returns on financial assets and physical investment may have some effect,
+ there is little doubt that the principal effect of raising interest rates is to reduce the expected return of investment,
+ through expected falls in aggregate demand.
+ As discussed previously the likelihood of a very high variance of the rate of return on investment (particularly in countries with weak institutional structures),
+ is also likely to reduce the elasticity of investment to the rate of interest.
+\end_layout
+
+\begin_layout Standard
+Low rates of interest,
+ however,
+ may not have symmetric effects.
+ While they may reduce slightly the costs of investment,
+ they will not increase expected returns by as much as high rates depress expected returns.
+ The experience of ultra-low interest rates since 2008 is perhaps the clearest illustration of this point.
+ There has not been an extraordinary investment boom by historical standards.
+ Nor have zero real or nominal rates suddenly made previously unviable investments viable,
+ precisely because of the uncertainty over returns.
+ What low interest rates 
+\emph on
+have
+\emph default
+ done is to raise asset prices,
+ (property,
+ shares,
+ cryptocurrency,
+ etc.),
+ often purchased using cheap credit to leverage returns,
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+This is the essence of Minsky’s Financial Instability Hypothesis,
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite{Minsky77,Minsky86}
+\end_layout
+
+\end_inset
+
+ which argues that financial crises are not aberrations or due to policy errors,
+ but rather inherent characteristics of capitalist economies with financial markets.
+\end_layout
+
+\end_inset
+
+ as wealth holders look for alternative (and often more risky) assets to produce a return.
+ Over time the rise in asset prices may also contribute to raising consumption through wealth effects,
+ at the expense of increasing the risks of reversing monetary policy,
+ as evidenced by the economic crises of 2008 and 2022.
+\end_layout
+
+\begin_layout Standard
+All these considerations suggest that private expenditure on consumption and investment may be affected by monetary policy in an uncertain and unpredictable manner.
+ The effects of monetary policy will depend upon changing views about the future,
+ of both consumers and investors.
+ They are unlikely to be linear or even monotonic.
+ In these circumstances,
+ while it may be possible to identify at a specific moment in time an interest rate which will be consistent with full employment of resources at a low inflation rate,
+ there will be nothing natural or stable about this interest rate,
+ and indeed,
+ in many circumstances it may not exist.
+ There is no reason that a natural interest rate should exist (see 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Clarke96"
+literal "false"
+
+\end_inset
+
+) once we dispense with the idea that interest rates in some sense reflect a trade-off between present and future consumption for consumers engaged in an exercise of intertemporal utility maximisation,
+ or that it is related to the real (unknowable) return to physical capital.
+\end_layout
+
+\begin_layout Section
+A brief history of theories of the interest rate
+\end_layout
+
+\begin_layout Standard
+One of the key narratives in economics is that of the natural or neutral rate of interest.
+ This idea was first formulated by Wicksell in the following statement:
+\end_layout
+
+\begin_layout Quote
+“There is a certain rate of interest on loans which is neutral in respect to commodity prices,
+ and tends neither to raise nor to lower them.
+ This is necessarily the same as the rate of interest which would be determined by supply and demand if no use were made of money and all lending were effected in the form of real capital goods.
+ It comes to much the same thing to describe it as the current value of the natural rate of interest on capital.” 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "p. 102"
+key "Wicksell36"
+literal "false"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Summers makes the explicit connection with Wicksell’s in his discussion of secular stagnation:
+\end_layout
+
+\begin_layout Quote
+“Excess savings tend to drive interest rates down,
+ and excess investment demand tends to drive them up.
+ Following the Swedish economist Knut Wicksell,
+ it is common to refer to the real interest rate that balances saving and investment at full employment as the ‘natural’ or ‘neutral’ real interest rate.” 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "p. 4"
+key "summers2016"
+literal "false"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+In this formulation the ‘natural’ rate of interest is equivalent to the unobservable return to physical capital.
+ The idea is that when the observable money rate of interest is equal to this return on capital there will be no pressure on prices (either upwards or downwards).
+ The notion is very similar to that adopted by monetary policy makers currently.
+ For example,
+ in a speech on the challenges of monetary policy Jerome Powell notes that:
+\end_layout
+
+\begin_layout Quote
+“the general level of interest rates has fallen both here in the United States and around the world.
+ Estimates of the neutral federal funds rate,
+ which is the rate consistent with the economy operating at full strength and with stable inflation,
+ have fallen substantially,
+ in large part reflecting a fall in the equilibrium real interest rate,
+ or ‘r-star’.
+ This rate is not affected by monetary policy but instead is driven by fundamental factors in the economy,
+ including demographics and productivity growth–the same factors that drive potential economic growth.” 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "powell2020"
+literal "false"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+The idea of the ‘neutral’ rate of interest in monetary policy,
+ is very close to Wicksell’s,
+ and in Powell’s formulation the central goal of monetary policy is to set interest rates at this neutral rate,
+ which is consistent with full employment and price stability,
+ and determined by macroeconomic fundamentals,
+ in the real economy.
+ The quote from Powell’s speech also illustrates how a falling neutral rate of interest may be seen as both a symptom and a cause of secular stagnation.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+See for example 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite{rachel2019,rachel2019a,Summers14,summers2014}
+\end_layout
+
+\end_inset
+
+.
+ The declining neutral rate is attributed to factors such as demographics and relatively cheap capital,
+ but also contributes to secular stagnation by reducing the room for monetary policy to correct the stagnation due to the implied lower bound on nominal interest rates.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In Wicksell’s formulation,
+ there was the implicit assumption that of the natural tendency for an economy to full employment through endogenous price (including interest rate) adjustments.
+\end_layout
+
+\begin_layout Subsection
+Liquidity preference and loanable funds
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "liquiditypreferenceandloanablefunds"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since the publication of Keynes General Theory there has been considerable debate as to the role and determination of the rate of interest.
+ The issue has revolved around whether the interest rate is the price of liquidity or whether in some sense it is set in the market for the supply and demand for loanable funds (which is often - incorrectly - conflated with the supply and demand for savings to finance investment).
+\end_layout
+
+\begin_layout Standard
+The issue was broadly considered as a distraction following Hicks apparent demonstration that the two theories were formally equivalent,
+ in that in a Walrasian general equilibrium system by Walras’ law one market was necessarily redundant,
+ and so that if one eliminated the market for loans or bonds,
+ the rate of interest was the price of money (as in the liquidity preference theory) while if one eliminated the money market the rate of interest becomes the price of bonds (as in the loanable funds theory).
+ (See 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite{Hicks36,Hicks1946}
+\end_layout
+
+\end_inset
+
+ and further discussion in 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite{Patinkin58}
+\end_layout
+
+\end_inset
+
+.)
+\end_layout
+
+\begin_layout Standard
+It was (reputedly) commented by Abba Lerner that if one could eliminate any market from the Walrasian system,
+ what would happen if one eliminated the market for peanuts.
+ Would we have a peanut theory of interest?
+ (See 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite{tsiang1956}
+\end_layout
+
+\end_inset
+
+).
+ Behind this possibly apocryphal comment there is a serious issue.
+ One cannot simply eliminate from the Walrasian system any market,
+ if that market is either too small or has close substitutes.
+ Indeed,
+ most generic macroeconomic models of Walrasian general equilibrium only have a few markets (such as money,
+ bonds,
+ labour,
+ goods,
+ foreign exchange).
+ Although theoretically a full Walrasian general equilibrium may have thousands of markets for each possible commodity,
+ type of labour,
+ and financial instrument,
+ in practice it makes little sense to have equations for each market,
+ particularly when it a close substitute for other markets.
+\end_layout
+
+\begin_layout Standard
+In the case of the market for money,
+ loans and bonds,
+ one could treat these as all relatively close substitutes which constitute a generic commodity of financial assets,
+ which is desired in and of itself,
+ which is required for the provision of security against hazards and destitution.
+ This commodity (net financial assets) can only be acquired,
+ through the difference between income and net expenditure on goods and services.
+\end_layout
+
+\begin_layout Standard
+In this case there is no market to eliminate and the rate of interest (or rather the vector of rates of interest in the economy) becomes the relative price to distinguish financial assets from a pure medium of exchange money.
+\end_layout
+
+\begin_layout Section
+Interest as an expression of time preference
+\end_layout
+
+\begin_layout Section
+The rate of interest and the return to capital
+\end_layout
+
+\begin_layout Standard
+One of the questions which might arise is how is it possible for the rate of interest to differ (persistently) from the rate of return to capital.
+ The answer is simply that the rate of return to capital is not known 
+\emph on
+ex-ante
+\emph default
+.
+ Thus if the 
+\emph on
+ex-post
+\emph default
+ rate of return to capital were to rise,
+ this might well raise the incentive to invest.
+ However,
+ investors have no means of knowing that the rate of return to capital for new investments will be equal to the observed 
+\emph on
+ex-post
+\emph default
+ rate of return.
+ Moreover,
+ the return on any particular investment will be very uncertain,
+ given that the 
+\emph on
+ex-post
+\emph default
+ return to capital is likely to have a very large variance,
+ and include investments which have returns of several orders of magnitude greater than the mean,
+ as well as investments which have strongly negative returns.
+ In these circumstance there can be no mechanism which will tend to equalise money rates of interest to the returns to physical investment.
+\end_layout
+
+\begin_layout Standard
+It would also be the case that investment would not be very sensitive to changes in interest rates,
+ but much more to the availability of credit.
+ A change in the rate of interest,
+ if credit is available,
+ would simply make a small difference to the risk of losses from the investment (which behavioural theory
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+See for example the empirical work on loss aversion:
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite{benartzi1995,kahneman1991,novemsky2005,thaler1997,tversky1991}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ would suggest is one of the main factors in determining whether an investment will be carried out or not).
+ On the other hand the availability,
+ or otherwise,
+ of credit at whatever interest rate,
+ could determine the feasibility of an investment.
+\end_layout
+
+\begin_layout Standard
+In this section it is argued that the observed low savings rates in many developing countries are more likely to be the result of the low quality of investment - by this it is meant investment which includes a significant proportion of expenditure on ‘capital’ which is not productive.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite{pritchett2000}
+\end_layout
+
+\end_inset
+
+ describes this phenomenon in great detail.
+ In particular he notes that:
+\end_layout
+
+\begin_layout Quote
+The value of capital and cost of investment will diverge 
+\emph on
+ex post
+\emph default
+ for at least three reasons:
+ relative price shifts,
+ technological changes,
+ and mistakes.
+ Since the value of a capital good depends on expected future prices,
+ not fully anticipated changes in relative prices will change the value of capital goods.
+ These changes in relative prices can stem either from terms of trade changes or from policy reforms (for example,
+ a decline in value of capital equipment devoted to import substitution following tariff reductions).
+ Technological innovations create a process of ‘creative destruction’ that reduces the value of existing capital stocks that embody old techniques due to innovation.
+ Finally,
+ even though private investors equate costs and expected value,
+ when investing the private sector often makes (large) mistakes.
+ The private sector will have its share of 
+\emph on
+ex post
+\emph default
+ white elephants either through underestimating costs or overestimating potential profits.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+parencite[p.
+ 363]{pritchett2000}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+The implicit assumption in all analyses of productivity and capital accumulation in economies is that capital is accumulated in each sector (
+\begin_inset Formula $s$
+\end_inset
+
+) of an economy is given by the following equation:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+K_{t}^{s}=K_{t-1}^{s}-\delta^{s}K_{t-1}^{s}+I_{t}^{s}\label{eqn:cudie}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where 
+\begin_inset Formula $K_{t}^{s}$
+\end_inset
+
+ is the capital stock in time 
+\begin_inset Formula $t$
+\end_inset
+
+ of sector 
+\begin_inset Formula $s$
+\end_inset
+
+ and 
+\begin_inset Formula $\delta^{s}$
+\end_inset
+
+ is the rate of annual depreciation in sector 
+\begin_inset Formula $s$
+\end_inset
+
+,
+ while 
+\begin_inset Formula $I_{t}^{s}$
+\end_inset
+
+ is investment in sector 
+\begin_inset Formula $s$
+\end_inset
+
+ for time period 
+\begin_inset Formula $t$
+\end_inset
+
+.
+ The sectors could represent public and private sectors or different economic sectors of the economy.
+ Thus,
+ summing across sectors,
+ the productive capital stock of the economy is given by:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+K_{t}=\sum\limits_{s=1}^{n}K_{t}^{s}\label{eqn:capsum}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+However,
+ the above presumes that all investment has produced productive capital,
+ or in other words the value of the capital created is the cost of the initial investment,
+ and that no investment is wasted or unfinished.
+ This assumption would appear to be quite unwarranted,
+ but as Pritchett notes,
+ never stated or challenged in empirical work on capital,
+ growth and development.
+ Immediately one considers the enormous number of investments,
+ both public and private,
+ which are either never finished or are soon abandoned,
+ once their economic unviability becomes apparent,
+ it is clear that any definition of capital based upon Cumulated Depreciated Investment Effort (CUDIE),
+ as Pritchett terms it,
+ is likely to be wrong by orders of magnitude for most developing countries.
+ Erroneous estimates of capital from such methods contribute to convoluted debates to explain how Total Factor Productivity declines in many countries over significant periods of time.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+See for example 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite{lopezcordova2016,worldbank2014g}
+\end_layout
+
+\end_inset
+
+ for discussions of these issues in the cases of Mexico and Brazil.
+ In addition 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite[p.
+ 375]{pritchett2000}
+\end_layout
+
+\end_inset
+
+ shows that 55% of developing countries have negative total TFP growth over the thirty year period from 1960 to 1990 using the standard formulation of capital accumulation from Equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eqn:cudie"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An alternative formulation is to include in the calculation of the accumulated capital a factor 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ to represent the difference between investment effort 
+\begin_inset Formula $I_{t}^{s}$
+\end_inset
+
+ and investment which results in the creation of capital,
+ as follows:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+K_{t}^{s}=K_{t-1}^{s}-\delta^{s}K_{t-1}^{s}+\gamma_{t}^{s}I_{t}^{s}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this formulation,
+ 
+\begin_inset Formula $\gamma_{t}^{s}$
+\end_inset
+
+ could vary between one and zero,
+ with a value of one implying that investment was of ‘maximum’ quality,
+ with all investment leading to the creation of productive capital at market prices,
+ and zero implying that investment effort led to no creation of productive capital.
+\end_layout
+
+\begin_layout Standard
+While traditionally 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ has been assumed to be unity,
+ thus allowing the estimation of TFP growth from a capital stock calculated as a perpetual inventory,
+ using the Solow growth equation,
+ Pritchett makes an assumption of positive TFP growth (1%) to calculate the implied value of 
+\begin_inset Formula $\gamma$
+\end_inset
+
+,
+ which is the proportion of investment effort actually converted into productive capital.
+ The results of the calculations suggest that
+\end_layout
+
+\begin_layout Section
+Equilibration of savings and investment
+\end_layout
+
+\begin_layout Standard
+One of the most common diagnoses of slow growth and lack of development is a low savings ratio.
+ Low savings are said to lead to inadequate finance for investment and thus constrain development.
+ Low savings rates are often attributed to financial repression (controlled interest rates) or the underdevelopment of financial institutions discouraging financial intermediation.
+\end_layout
+
+\begin_layout Standard
+This explanation is supported by the narrative in which the lack of savings raises market interest rates,
+ while government intervention to lower interest rates distorts the process of capital allocation and financial intermediation by the banking and financial system.
+ It sounds very plausible and fits in with the standard orthodox approach in which almost economists are trained.
+ It is,
+ however,
+ an explanation which is not logically consistent,
+ and also which does not have an empirical basis.
+\end_layout
+
+\begin_layout Standard
+The logical inconsistency can be seen very clearly by means of two thought experiments.
+ In the first we consider an economy with low saving and investment.
+ An effective measure is taken to encourage saving.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+It is not clear what the nature of such a measure would be.
+ Policy makers have been notoriously unsuccessful in finding levers to increase savings.
+\end_layout
+
+\end_inset
+
+ Consumers reduce their expenditure and deposit the non-consumed funds in the banking system.
+ The banking system,
+ however,
+ has no additional liquidity,
+ as every peso,
+ rupee or real deposited by consumers constitutes a reduction in funds held by producers in the banking system.
+\end_layout
+
+\begin_layout Standard
+The second thought experiment is the following:
+ suppose the authorities take measures to increase confidence in the banking system.
+ Suppose further that the result of these measures is to encourage the deposit of hoarded funds and or precious metals with the banking system.
+ In this case,
+ the banks will have additional liquidity and the ability to lend,
+ without there having been any change in savings.
+ In effect if investment is constrained by a lack of lending,
+ this cannot be solved by increasing saving.
+ If an increase in lending allows an increase in investment,
+ in a economy employed at full capacity,
+ then clearly there will be macroeconomic consequences to the increase in investment,
+ in the form of inflation and or an increase in the deficit of the current account of the balance of payments.
+ Inflation would reduce both ex-ante consumption and investment to levels consistent with capacity,
+ while the increased balance of payments deficit would imply additional external financing.
+ In both cases investment would be higher than in the previous situation,
+ without an increase in the propensity of households and producers to save.
+\end_layout
+
+\begin_layout Subsection
+Why are investment and savings rates low in some countries?
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "whyareinvestmentandsavingsrateslowinsomecountries"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If a low propensity to save cannot logically be a cause of low investment and growth,
+ then it is important to provide a coherent explanation for the observed cases of low savings and investment.
+ It is often presumed that,
+ particularly in developing countries,
+ the distance from the technological frontier,
+ and the relative lack of capital,
+ implies that there must be many highly profitable investment opportunities with returns that far exceed those in the most developed countries.
+ The fact that investment levels are often lower in developing countries and that capital often flows from poorer to richer countries
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+See the debate on the paradox of capital flows which started with 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite{lucas1990}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+ suggests that it is necessary to examine the factors determining the level of investment.
+\end_layout
+
+\begin_layout Standard
+The first question is whether profitable investment opportunities exist,
+ at least in principle.
+ By this we mean that if an investor were to secure the physical capital,
+ do the necessary inputs,
+ in the form of labour,
+ raw materials and other inputs,
+ exist to produce saleable output with a positive return on the capital.
+ The answer in almost all countries to this question must be positive.
+ Indeed it is this positive answer that is the basis of the paradox of capital flows from poor countries to rich ones,
+ and also the reason that,
+ for many decades,
+ development was simply seen as a question of making the necessary capital available to developing countries,
+ in order to realise the returns technically available.
+ This was the consequence of the narrative which suggested that if investment opportunities exist,
+ these will be seen by entrepreneurs and investment will be forthcoming if the finance is available.
+ The absence of such investment in many cases was ascribed to the lack of finance (or the lack of savings).
+\end_layout
+
+\begin_layout Standard
+This narrative,
+ however,
+ ignored four far more important questions.
+\end_layout
+
+\begin_layout Enumerate
+The first of these is often a basic lack of knowledge (or managerial know-how) among potential entrepreneurs about which are viable investments.
+ The result is that many investments fail,
+ and that the return on capital is not a tight distribution around a well defined mean but rather a distribution with a very large variance in which the most successful investments may have returns in triple digits,
+ while a substantial majority have very low and in many cases negative returns.
+ This problem can be mitigated (but certainly not eliminated) through effective banking institutions,
+ with good governance,
+ where the key role is not so much the transformation of short term deposits into long term lending but rather,
+ the scrutiny of investment proposals (see the discussion below).
+\end_layout
+
+\begin_layout Enumerate
+A second fundamental issue is the ‘governance environment’ of investment.
+ Do there exist the institutions which protect investments and their returns from predatory behaviour by private competitors,
+ politicians and state institutions?
+ This is more than a question of pro-forma respect for property rights,
+ but concerns the issue of whether economically and politically powerful actors are constrained by the rule of law.
+ If they are not,
+ the volume of desired investment is likely to be restricted or directed into rent extraction rather than wealth creation.
+\end_layout
+
+\begin_layout Enumerate
+Thirdly,
+ there are the traditional constraints to investment - the existence of quality infrastructure (particularly transport and energy) and a well qualified labour force.
+ These will play an important role in determining which investments may be technically and economically viable.
+\end_layout
+
+\begin_layout Enumerate
+Finally there is the issue of the effectiveness of the banking and financial system.
+ It is clearly possible that viable investments requiring credit may be turned down by banks or other financial institutions,
+ or indeed by the individual holders of financial assets.
+ This may be because of information asymmetry between the investor and the lender,
+ or risk aversion of the lender,
+ an inability of the lender to identify the difference between viable and non-viable projects,
+ or possibly political or sectoral criteria used by the lender to identify potential investments.
+ Any of these factors would reduce the volume of investment in viable activities,
+ and potentially increase the volume of investment in non-viable activities.
+\end_layout
+
+\begin_layout Standard
+The level and quality of viable investment will thus be determined by these four factors,
+ which are likely to dominate the prospects of returns.
+\end_layout
+
+\begin_layout Subsection
+The quality of investment
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "thequalityofinvestment"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this section it is argued that the observed low savings rates in many developing countries are more likely to be the result of the low quality of investment - by this it is meant investment which includes a significant proportion of expenditure on ‘capital’ which is not productive.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite{pritchett2000}
+\end_layout
+
+\end_inset
+
+ describes this phenomenon in great detail for the public sector.
+ In particular he notes that:
+\end_layout
+
+\begin_layout Quote
+The value of capital and cost of investment will diverge 
+\emph on
+ex post
+\emph default
+ for at least three reasons:
+ relative price shifts,
+ technological changes,
+ and mistakes.
+ Since the value of a capital good depends on expected future prices,
+ not fully anticipated changes in relative prices will change the value of capital goods.
+ These changes in relative prices can stem either from terms of trade changes or from policy reforms (for example,
+ a decline in value of capital equipment devoted to import substitution following tariff reductions).
+ Technological innovations create a process of ‘creative destruction’ that reduces the value of existing capital stocks that embody old techniques due to innovation.
+ Finally,
+ even though private investors equate costs and expected value,
+ when investing the private sector often makes (large) mistakes.
+ The private sector will have its share of 
+\emph on
+ex post
+\emph default
+ white elephants either through underestimating costs or overestimating potential profits.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+parencite[p.
+ 363]{pritchett2000}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+The implicit assumption in all analyses of productivity and capital accumulation in economies is that capital is accumulated in each sector (
+\begin_inset Formula $s$
+\end_inset
+
+) of an economy is given by the following equation:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+K_{t}^{s}=K_{t-1}^{s}-\delta^{s}K_{t-1}^{s}+I_{t}^{s}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where 
+\begin_inset Formula $K_{t}^{s}$
+\end_inset
+
+ is the capital stock in time 
+\begin_inset Formula $t$
+\end_inset
+
+ of sector 
+\begin_inset Formula $s$
+\end_inset
+
+ and 
+\begin_inset Formula $\delta^{s}$
+\end_inset
+
+ is the rate of annual depreciation in sector 
+\begin_inset Formula $s$
+\end_inset
+
+,
+ while 
+\begin_inset Formula $I_{t}^{s}$
+\end_inset
+
+ is investment in sector 
+\begin_inset Formula $s$
+\end_inset
+
+ for time period 
+\begin_inset Formula $t$
+\end_inset
+
+.
+ The sectors could represent public and private sectors or different economic sectors of the economy.
+ Thus,
+ summing across sectors,
+ the productive capital stock of the economy is given by:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+K_{t}=\sum\limits_{s=1}^{n}K_{t}^{s}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+However,
+ the above presumes that all investment has produced productive capital,
+ or in other words the value of the capital created is the cost of the initial investment,
+ and that no investment is wasted or unfinished.
+ This assumption would appear to be quite unwarranted,
+ but as Pritchett notes,
+ never stated or challenged in empirical work on capital,
+ growth and development.
+ Immediately one considers the enormous number of investments,
+ both public and private,
+ which are either never finished or are soon abandoned,
+ once their economic unviability becomes apparent,
+ it is clear that any definition of capital based upon Cumulated Depreciated Investment Effort (CUDIE),
+ as Pritchett terms it,
+ is likely to be wrong by orders of magnitude for most developing countries.
+ Erroneous estimates of capital from such methods contribute to convoluted debates to explain how Total Factor Productivity declines in many countries over significant periods of time.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+See for example 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite{lopezcordova2016,worldbank2014g}
+\end_layout
+
+\end_inset
+
+ for discussions of these issues in the cases of Mexico and Brazil.
+ In addition 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite[p.
+ 375]{pritchett2000}
+\end_layout
+
+\end_inset
+
+ shows that 55% of developing countries have negative total TFP growth over the thirty year period from 1960 to 1990 using the standard formulation of capital accumulation from Equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eqn:cudie"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An alternative formulation is to include in the calculation of the accumulated capital a factor 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ to represent the difference between investment effort 
+\begin_inset Formula $I_{t}^{s}$
+\end_inset
+
+ and investment which results in the creation of capital,
+ as follows:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+K_{t}^{s}=K_{t-1}^{s}-\delta^{s}K_{t-1}^{s}+\gamma_{t}^{s}I_{t}^{s}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this formulation,
+ 
+\begin_inset Formula $\gamma_{t}^{s}$
+\end_inset
+
+ could vary between one and zero,
+ with a value of one implying that investment was of ‘maximum’ quality,
+ with all investment leading to the creation of productive capital at market prices,
+ and zero implying that investment effort led to no creation of productive capital.
+\end_layout
+
+\begin_layout Standard
+While traditionally 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ has been assumed to be unity,
+ thus allowing the estimation of TFP growth from a capital stock calculated as a perpetual inventory,
+ using the Solow growth equation ,
+ Pritchett makes an assumption of positive TFP growth (1%) to calculate the implied value of 
+\begin_inset Formula $\gamma$
+\end_inset
+
+,
+ which is the proportion of investment effort actually converted into productive capital.
+ The results of the calculations suggest that in many countries the ‘effective’ capital stock is far below the traditionally measure one,
+ and that much ‘investment’ which takes place does not have any value or generate any additional output or income.
+\end_layout
+
+\begin_layout Subsection
+The determination of the rate of growth
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "thedeterminationoftherateofgrowth"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In previous sections it was shown how the savings rate could depend directly on the growth rate of the economy.
+ It was also shown that traditional measures of investment and capital accumulation often fail to capture the volume of effectively wasted investment,
+ which appears in the data as negative or very low growth of total factor productivity.
+ This suggests that one of the principal factors determining growth rates is the quality of the public and private institutions underpinning the choice of investment.
+\end_layout
+
+\begin_layout Standard
+If,
+ in a relatively undeveloped country,
+ public and private institutions emerge to ensure that i) public investment in infrastructure is effective and relevant to growth and ii) there is filter to ensure that private sector investment is broadly directed to productive goals and that ineffective investment is quickly eliminated,
+ it possible to envisage a cycle in which investment quickly generates growth.
+ The growth generates the necessary saving and thus finance is not the constraint of investment and growth.
+ An examination of the countries which have managed to take-off in recent decades will show that these are the two critical factors.
+\end_layout
+
+\begin_layout Section
+Determination of the long term interest rate
+\end_layout
+
+\begin_layout Section
+Does there exist an equilibrium rate of interest?
+\end_layout
+
+\begin_layout Standard
+All the above arguments depend on the idea that there exists a 
+\emph on
+real
+\emph default
+ rate of interest (positive or negative) that will be consistent with full employment of resources in the economy.
+ This notion in turn implicitly relies upon the main aggregates of spending (investment and consumption) being monotonic and stable functions of the real rate of interest in which 
+\begin_inset Formula $\frac{\partial I}{\partial r}<0$
+\end_inset
+
+ and 
+\begin_inset Formula $\frac{\partial C}{\partial r}<0$
+\end_inset
+
+.
+ It is also implicit that the range of this ‘equilibrium’ real interest rate should be not very far from a low positive value.
+ If it were to move outside accepted commonly accepted ranges,
+ it is likely that the income and wealth effects of an ‘equilibrium’ rate of say -10% or +10% would destabilise any potential full employment equilibrium.
+ Simply stating these conditions makes clear that the existence of a reasonable equilibrium real rate at all times is doubtful.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite{Palley19}
+\end_layout
+
+\end_inset
+
+,
+ for example,
+ notes that in pure theory changes in interest rates produce both substitution and income effects and that consequently the direction of effects of changes in real interest rates on consumption are uncertain,
+ and will certainly depend on the distribution of debts and credits throughout the economy.
+ He also highlights the importance of the existence of Non-Reproducible Assets (NRAs)
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Palley gives examples of NRAs such as fiat money,
+ precious metals and minerals,
+ land,
+ rent streams from firms with market power,
+ and intellectual property such as patents and copyrights.
+ To this list could be added crypto currencies and tokens.
+ All have in common that,
+ particularly in an era of low inflation and low (possibly negative) nominal interest rates,
+ they can generate a return and substitute productive investment,
+ due to their non–reproducibility.
+\end_layout
+
+\end_inset
+
+ as substitutes for investment,
+ which will impede the workings of the interest rate as a mechanism to equilibrate savings and investment.
+ A further potential problem noted by Palley is that well known behavioural mechanisms such as the endowment effect 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+parencite{kahneman1990}
+\end_layout
+
+\end_inset
+
+,
+ whereby negative (real or nominal) interest rates may encourage saving to replace lost financial assets.
+ Econometrically one of the most robust determinants of private saving is the rate of inflation.
+ In their analysis of 165 countries over the period 1981–2012 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcite{Grigoli14}
+\end_layout
+
+\end_inset
+
+ find the following result:
+\end_layout
+
+\begin_layout Quote
+Increased macroeconomic uncertainty,
+ proxied by higher inflation,
+ leads to increased private precautionary saving.
+ An increase of inflation by one pp is associated with a 0.39 pp rise in the private saving rate.
+ According to this result,
+ the moderation of inflation rates observed around the world since the 1990s contributed to a decline in private saving.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+parencite[pp.24-25]{Grigoli14}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+This would again seem to suggest a negative relationship between saving and real interest rates (at least in some circumstances),
+ indicating a non-monotonic function in which,
+ over some ranges 
+\begin_inset Formula $\frac{\partial C}{\partial r}>0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Final point is that there is already a mechanism for investment and saving to equilibrate - that is changes in income
+\end_layout
+
+\begin_layout Section
+The weight of false narratives
+\end_layout
+
+\begin_layout Standard
+This paper examines the theoretical and empirical approaches to the role of savings and investment in macroeconomic development,
+ and suggests that the analysis of the relationships between savings,
+ investment and interest rate has been distorted by what 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Shiller19,Shiller21"
+literal "false"
+
+\end_inset
+
+ would term as “narratives”.
+ These are powerful stories which subtly influence theoretical and empirical approaches to the relationship between these key macroeconomic variables.
+ The key stories are i) that interest is the reward for waiting,
+ or for deferring consumption;
+ ii) savings are required for investment and therefore at a macroeconomic level a lack of savings can be constraint to growth and development;
+ iii) the long-run real interest rate is determined by the balance between desired 
+\emph on
+ex-ante
+\emph default
+ saving and desired (
+\emph on
+ex-ante
+\emph default
+) investment.
+ It will be argued that
+\end_layout
+
+\begin_layout Section
+A Keynesian-Behavioural theory of the rate of interest for the 21
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+st
+\end_layout
+
+\end_inset
+
+ century
+\end_layout
+
+\begin_layout Subsection
+Separating interest rates from time-preference
+\end_layout
+
+\begin_layout Subsection
+The weak link between interest rates and the accumulation of capital
+\end_layout
+
+\begin_layout Subsection
+Interest rates and demand management
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,210 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children no
+\language british
+\language_package default
+\inputencoding utf8
+\fontencoding auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement class
+\float_alignment class
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip halfline
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style british
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Subsection*
+(cut 7 July 2025)
+\end_layout
+
+\begin_layout Section
+A theory of inflation 
+\end_layout
+
+\begin_layout Standard
+Rather than viewing inflation as a monetary phenomenon it is more useful to view it as a conflict over the allocation of resources.
+ In this view there will be a number of competing factors which determine the levels of inflationary pressure in the economy.
+ On the one hand increasing productivity and labour force participation will decrease inflationary pressures (by making more resources available for distribution),
+ while a deterioration (improvement) in the terms of trade will increase (decrease) inflationary pressures.
+ Similarly,
+ devaluation (revaluation) of the real exchange rate will increase (decrease) inflationary pressures.
+ The importance of the terms of trade and real exchange rate will depend on the openness of the economy as measured by the proportion of imports in GDP.
+ Finally,
+ in determining the volume of resources available for allocation,
+ it is necessary to take account of resources really available for distribution.
+ Thus it is proposed that the relevant measure of GDP for measuring resources available should be civilian GDP (or GDP excluding defence expenditures).
+\end_layout
+
+\begin_layout Standard
+The measure of inflationary pressure can thus be formulated thus:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Ip=\frac{GDP_{nd}}{pop}*TOT^{imp}*RER^{imp}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $Ip$
+\end_inset
+
+ is the index of inflationary pressure,
+ 
+\begin_inset Formula $GDP_{nd}$
+\end_inset
+
+ is non-defence GDP,
+ 
+\begin_inset Formula $pop$
+\end_inset
+
+ is population,
+ 
+\begin_inset Formula $TOT$
+\end_inset
+
+ is the terms of trade (expressed as 
+\begin_inset Formula $\frac{p_{i}}{p_{e}}$
+\end_inset
+
+) where 
+\begin_inset Formula $p_{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $p_{e}$
+\end_inset
+
+ are prices of imports and exports respectively,
+ and finally 
+\begin_inset Formula $imp$
+\end_inset
+
+ is the proportion on imports in GDP.
+ This measure of inflationary pressure should be understood as an index relative to the initial year.
+ The first term,
+ 
+\begin_inset Formula $\frac{GDP_{nd}}{pop}$
+\end_inset
+
+,
+ includes the effects of productivity (GDP increasing relative to the working population),
+ workforce participation (GDP increasing relative to total population) and the effects of dependency ratios (changes of working age population relative to total population).
+ 
+\end_layout
+
+\begin_layout Subsection*
+(cut 9 July 2025)
+\end_layout
+
+\begin_layout Standard
+The starting point for a behavioural analysis of inflation is to note that an individual
+\begin_inset Quotes brd
+\end_inset
+
+s current real income is likely to provide an anchor against which to measure changes in circumstance.
+ If their income has persisted for some time and is comparable with others in similar occupations,
+ it is likely to be perceived as relatively 
+\begin_inset Quotes bld
+\end_inset
+
+fair
+\begin_inset Quotes brd
+\end_inset
+
+.
+ Empirical research has also shown that individuals are 
+\begin_inset Quotes bld
+\end_inset
+
+loss averse
+\begin_inset Quotes brd
+\end_inset
+
+ (meaning that a potential loss is judged to reduce utility by more than an equivalent gain).
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,861 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children no
+\language american
+\language_package default
+\inputencoding utf8
+\fontencoding auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement class
+\float_alignment class
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip fullline
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Section*
+Consumption function
+\end_layout
+
+\begin_layout Standard
+C and Y are consumption and income respectively.
+ For 
+\begin_inset Formula $Y\leq C_{1}$
+\end_inset
+
+ 
+\begin_inset Formula $C=Y$
+\end_inset
+
+ for 
+\begin_inset Formula $Y\geq C_{1}$
+\end_inset
+
+ it is assumed that:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{dC}{dY}=\left(\frac{Y_{\text{max}}-Y}{Y_{\text{max}}-C_{1}}\right)^{n}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where 
+\begin_inset Formula $Y_{max}$
+\end_inset
+
+ is the maximum consumption.
+ In addition there is an initial condition:
+\end_layout
+
+\begin_layout Standard
+When 
+\begin_inset Formula $Y=C_{1}$
+\end_inset
+
+,
+ 
+\begin_inset Formula $C=C_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+To obtain the consumption function 
+\end_layout
+
+\begin_layout Standard
+Integrate Both Sides
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+dC=\left(\frac{Y_{\text{max}}-Y}{Y_{\text{max}}-C_{1}}\right)^{n}dY
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C(Y)=\int\left(\frac{Y_{\text{max}}-Y}{Y_{\text{max}}-C_{1}}\right)^{n}dY+K
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+u=Y_{\text{max}}-Y\quad\Rightarrow\quad du=-dY
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+C(Y)=\int\left(\frac{u}{Y_{\text{max}}-C_{1}}\right)^{n}(-du)+K
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+=-\frac{1}{(Y_{\text{max}}-C_{1})^{n}}\int u^{n}\,du+K
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+=-\frac{1}{(Y_{\text{max}}-C_{1})^{n}}\cdot\frac{u^{n+1}}{n+1}+K
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substitute back 
+\begin_inset Formula $u=Y_{\text{max}}-Y$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C(Y)=-\frac{(Y_{\text{max}}-Y)^{n+1}}{(n+1)(Y_{\text{max}}-C_{1})^{n}}+K
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Solving for the constant K
+\end_layout
+
+\begin_layout Standard
+Apply the initial condition 
+\begin_inset Formula $C(Y=C_{1})=C_{1}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C_{1}=-\frac{(Y_{\text{max}}-C_{1})^{n+1}}{(n+1)(Y_{\text{max}}-C_{1})^{n}}+KC_{1}=-\frac{Y_{\text{max}}-C_{1}}{n+1}+K
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+K=C_{1}+\frac{Y_{\text{max}}-C_{1}}{n+1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Final Consumption function
+\end_layout
+
+\begin_layout Standard
+Substitute 
+\begin_inset Formula $K$
+\end_inset
+
+ back into the solution:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+C(Y)=-\frac{(Y_{\text{max}}-Y)^{n+1}}{(n+1)(Y_{\text{max}}-C_{1})^{n}}+C_{1}+\frac{Y_{\text{max}}-C_{1}}{n+1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+=C_{1}+\frac{Y_{\text{max}}-C_{1}}{n+1}\left[1-\left(\frac{Y_{\text{max}}-Y}{Y_{\text{max}}-C_{1}}\right)^{n+1}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Explicit solution
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\boxed{C(Y)=C_{1}+\frac{Y_{\text{max}}-C_{1}}{n+1}\left[1-\left(\frac{Y_{\text{max}}-Y}{Y_{\text{max}}-C_{1}}\right)^{n+1}\right]}
+\end{equation}
+
+\end_inset
+
+To determine the value of 
+\begin_inset Formula $C_{max}$
+\end_inset
+
+ for 
+\begin_inset Formula $Y=Y_{max}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C_{max}=C_{1}+\frac{Y_{max}-C_{1}}{n+1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The value of 
+\begin_inset Formula $Y_{max}$
+\end_inset
+
+ for a corresponding 
+\begin_inset Formula $C_{max}$
+\end_inset
+
+ would be:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Y_{max}=(n+1)C_{max}-C_{1}(n+1)+C_{1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Y_{max}=(n+1)C_{max}-nC_{1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To solve for a particular value of 
+\begin_inset Formula $Y$
+\end_inset
+
+ corresponding to 
+\begin_inset Formula $\frac{dC}{dY}=x$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+x=\left(\frac{Y_{\text{max}}-Y}{Y_{\text{max}}-C_{1}}\right)^{n}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+x^{\frac{1}{n}}=\frac{Y_{\text{max}}-Y}{Y_{\text{max}}-C_{1}}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+Y=x^{\frac{1}{n}}(C_{1}-Y_{max})+Y_{max}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Derivation of logarithmic consumption function
+\end_layout
+
+\begin_layout Standard
+C and Y are consumption and income respectively.
+ For 
+\begin_inset Formula $Y\leq C_{1}$
+\end_inset
+
+ 
+\begin_inset Formula $C=Y$
+\end_inset
+
+ for 
+\begin_inset Formula $Y\geq C_{1}$
+\end_inset
+
+ it is assumed that:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{dC}{dY}=\frac{nC_{1}}{Y+(n-1)C_{1}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+with the initial condition:
+ when 
+\begin_inset Formula $Y=C_{1}$
+\end_inset
+
+,
+ 
+\begin_inset Formula $C=C_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+To obtain the consumption function 
+\end_layout
+
+\begin_layout Standard
+Integrate both sides
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C=nC_{1}\int\frac{1}{Y+(n-1)C_{1}}dy
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C=nC_{1}\ln\left(Y+(n-1)C_{1}\right)+K
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substitute initial conditions 
+\begin_inset Formula $Y=C=C_{1}$
+\end_inset
+
+ into equation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C_{1}=nC_{1}\ln\left(nC_{1}\right)+K
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+K=C_{1}\left(1-n\ln(nC_{1})\right)
+\end{equation}
+
+\end_inset
+
+ Substituting K into the equation we get:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C=nC_{1}\ln\left(Y+(n-1)C_{1}\right)+C_{1}\left(1-n\ln(nC_{1})\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C=C_{1}\left[n\ln\left(Y+(n-1)C_{1}\right)+\left(1-n\ln(nC_{1})\right)\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C=C_{1}\left[1+n\ln\left(\frac{Y+(n-1)C_{1}}{nC_{1}}\right)\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+General form of logarithmic consumption function
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C=\alpha+\beta\ln(Y+\gamma)\label{eq:orig}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{dC}{dY}=\frac{\beta}{Y+\gamma}
+\end{equation}
+
+\end_inset
+
+ Initial conditions:
+ when 
+\begin_inset Formula $Y=C_{1}$
+\end_inset
+
+ ,
+ 
+\begin_inset Formula $C=C_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\frac{dC}{dY}=1$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Additional condition:
+ when 
+\begin_inset Formula $Y=nC_{1}$
+\end_inset
+
+ ,
+ 
+\begin_inset Formula $\frac{dC}{dY}=0.5$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+The above conditions imply:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C_{1}=\alpha+\beta\ln(C_{1}+\gamma)\label{eq:condition1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\beta=C_{1}+\gamma
+\end{equation}
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\begin{equation}
+2\beta=nC_{1}+\gamma
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus 
+\begin_inset Formula $\beta=(n-1)C_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\gamma=(n-2)C_{1}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Substituting into equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:condition1"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+ we obtain:
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C_{1}=\alpha+(n-1)C_{1}\ln((n-1)C_{1})
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\alpha=C_{1}-(n-1)C_{1}\ln((n-1)C_{1})
+\end{equation}
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\begin{equation}
+\alpha=C_{1}\left[1-(n-1)\ln((n-1)C_{1})\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substituting into equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:orig"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C=C_{1}\left[1-(n-1)\ln((n-1)C_{1})\right]+(n-1)C_{1}\ln(Y+(n-2)C_{1})\label{eq:orig-1}
+\end{equation}
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\begin{equation}
+C=C_{1}\left[1-(n-1)\ln((n-1)C_{1})+(n-1)\ln(Y+(n-2)C_{1})\right]
+\end{equation}
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\begin{equation}
+C=C_{1}\left[1-(n-1)\left\{ \ln((n-1)C_{1})-\ln(Y+(n-2)C_{1})\right\} \right]
+\end{equation}
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\begin{equation}
+C=C_{1}\left[1+(n-1)\left\{ \ln(Y+(n-2)C_{1})-\ln((n-1)C_{1})\right\} \right]
+\end{equation}
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\begin{equation}
+C=C_{1}\left[1+(n-1)\left\{ \ln\left(\frac{Y+(n-2)C_{1}}{(n-1)C_{1}}\right)\right\} \right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C=C_{1}+\alpha\ln\left(\frac{Y+\beta}{\gamma}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

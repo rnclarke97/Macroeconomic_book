@@ -1,0 +1,301 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass book
+\begin_preamble
+% dont number subsections
+%sets no indents use \noindent for ad hoc indentation RC
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+\usepackage{lipsum}%% dummy text package
+
+\usepackage{sectsty}% for centering section titles
+%\sectionfont{\centering}  % for centering section titles
+
+\parskip=6pt %sets space between paragraphs
+
+\usepackage{dcolumn}
+\usepackage{booktabs}%\usepackage{tabulary}
+
+\usepackage[authordate]{biblatex-chicago}
+\bibliography{biblio/biblio} 
+
+\graphicspath{{figures/}} % all figures stored in subdirectory
+\usepackage[hang,flushmargin]{footmisc}%stops indents on footnotes Must be placed after {biblatex-chicago} to work
+
+\renewcommand{\labelenumi}{(\alph{enumi})} %sets default list to (a) (b) (c)
+
+%=====================================================================
+\end_preamble
+\options A4
+\use_default_options false
+\maintain_unincluded_children no
+\language british
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command default
+\index_command default
+\float_placement class
+\float_alignment class
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style plain
+\biblatex_bibstyle chicago-authordate
+\biblatex_citestyle chicago-authordate
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\branch Hidden_notes
+\selected 0
+\filename_suffix 0
+\color background background
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip halfline
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style british
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+A behavioural approach to fiscal policy
+\end_layout
+
+\begin_layout Standard
+The natural or neutral rate of interest conceptually is the solution to the system of Walrasian general equilibrium equations which would hypothetically maintain the economy at a full employment equilibrium,
+ if nothing else ever changes.
+ The equilibrium is never (and can never be) achieved,
+ as it depends upon the existence of smooth convex preferences,
+ and rational maximisation of utility by omniscient economic agents.
+ In addition,
+ and most importantly for this discussion,
+ the ‘general equilibrium’ will depend upon the fiscal stance.
+\end_layout
+
+\begin_layout Standard
+This point can be illustrated in a very schematic way as follows.
+ Consider the case in which the Government has no budget deficit and finances all spending from taxation.
+ An interest rate 
+\begin_inset Formula $r^{*}$
+\end_inset
+
+,
+ consistent with full employment and low inflation has been found.
+ If the government then reduces (increases) expenditure without changing the rate of taxation a budget surplus (deficit) will emerge and aggregate demand will fall below (rise above) the full employment equilibrium.
+ In the new situation the interest rate 
+\begin_inset Formula $r^{*}$
+\end_inset
+
+ would no longer be the neutral interest rate and policy makers would have to search for a lower (higher) natural interest rate to achieve full employment with low inflation.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+This assumes that in the new situation such an interest rate exists,
+ once the non–linearities of the interest rate function on consumption,
+ investment and asset prices are taken into account.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Another way of examining the issue is to recall the discussion of the demand for financial assets in section xxxx.
+ A situation of insufficient demand with downward pressure on prices would normally induce the monetary authorities to lower interest rates until demand is raised.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The experience of the past two decades indicates that the combination of the potential zero lower bound on nominal interest rates,
+ with non–linearities in the interest rate expenditure functions,
+ it may be difficult to find a rate of interest consistent with full employment.
+\end_layout
+
+\end_inset
+
+ This is,
+ however,
+ equivalent to saying that at full employment there is a net demand for financial assets by the private sector,
+ which requires a public sector deficit
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The alternative is that a balance of payments surplus is generated by investment in export industries to allow the accumulation of external financial assets.
+ This process,
+ however,
+ is unlikely to take place quickly and smoothly.
+\end_layout
+
+\end_inset
+
+ to supply them.
+\end_layout
+
+\begin_layout Standard
+In the Walrasian (or Arrow-Debreu) general equilibrium approach 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+parencite{arrow1954}
+\end_layout
+
+\end_inset
+
+,
+ there cannot be a ‘demand’ for financial assets as such,
+ as we saw in the quote from Romer in section xxx orthodox macroeconomic theory excludes the possibility of saving being valued by individuals in itself.
+ In the approach proposed in this paper,
+ individuals do value saving \SpecialChar breakableslash
+financial assets,
+ in themselves,
+ as security against an uncertain future.
+ Simply changing the interest rate will not significantly alter this demand.
+ Financial assets (which are not needed in a general equilibrium model) can only be acquired as the difference between income and expenditure.
+\end_layout
+
+\begin_layout Section
+Alternative Policy Frameworks
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "alternativepolicyframeworks"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The previous arguments suggest an alternative institutional and policy framework might be possible.
+ It is clear that raising interest rates sufficiently can choke off investment (not mainly through a rationally calculated rate of return calculation),
+ but rather by increasing the risks of adverse outturns,
+ particularly if others reduce investment levels.
+ However,
+ there is little theoretical or empirical support for the idea that reducing short term interest rates below the inflation target and possibly to zero or negative levels in nominal terms will have a substantial effect in stimulating physical investment (speculative financial investment is another matter).
+ Certainly lowering rates will have little impact on consumption through the mechanism of rationally chosen time preference for consumption.
+ It is arguable that even raising interest rates will only have an effect on consumption indirectly,
+ by acting as a signal of greater uncertainty and risks,
+ generating narratives of fear of unemployment and coming austerity requiring increased holdings of financial assets.
+ In other words increasing interest rates may only raise savings by increasing fear and uncertainty.
+\end_layout
+
+\begin_layout Standard
+Thus if at low rates of interest there is insufficient demand and a tendency towards deflation in the economy,
+ lowering interest rates will not have a symmetric effect with raising interest rates to reduce excess demand.
+ In effect,
+ it might be said that low demand at low interest rates is symptomatic of a desire by the private sector to accumulate financial assets,
+ which can only be supplied by an increase in the public sector deficit.
+\end_layout
+
+\begin_layout Standard
+Traditionally,
+ it has been suggested that responding to such a situation through fiscal policy will suffer from the following problems:
+\end_layout
+
+\begin_layout Enumerate
+Increased expenditure or reduced taxes require time to be put into effect
+\end_layout
+
+\begin_layout Enumerate
+The quality of spending will be low without adequate evaluation
+\end_layout
+
+\begin_layout Enumerate
+Increased spending or lower taxes are difficult to reverse
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(see reasons in Fiscal Policy and EMU)
+\end_layout
+
+\begin_layout Standard
+In order to overcome these obstacles it would be necessary to have in place a symmetric institutional structure to be able to quickly increase and reduce transfers to the population.
+ This could be established through a universal unconditional income transfer,
+ whereby base income will always be transferred and temporary additional income transfers made at times of insufficient demand,
+ while short-term interest rates have a floor equal to the inflation target.
+ The result of such a system would be to use restrictive monetary policy to combat excess demand and expansionary fiscal policy to deal with insufficient demand.
+\end_layout
+
+\end_body
+\end_document
