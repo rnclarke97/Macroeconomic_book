@@ -292,7 +292,7 @@ From 1945 until about 1970 macroeconomic management in OECD
 countries appeared to have achieved full employment with steady 
 growth and low (but gradually increasing) inflation. During this 
 period average inflation in the US, the UK, France, Germany and 
-Japan was xx, yy, zz, ww, vv, respectively while unemployment 
+Japan was vv, yy, zz, ww, xx, respectively while unemployment 
 rates were of the order of 3% - 4%. There is little doubt that 
 this period was probably the most successful in terms of 
 crisis-free, sustained positive macroeconomic results for most 
