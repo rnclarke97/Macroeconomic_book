@@ -236,6 +236,17 @@ literal "false"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
+filename "Chapters/Inflation.lyx"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
 filename "Chapters/Interest_rates.lyx"
 literal "false"
 
